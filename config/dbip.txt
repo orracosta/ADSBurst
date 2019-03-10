@@ -1,0 +1,1 @@
+./import.php -f dbip-full-2018-07.csv.gz -d full -b iplezier -t dbip_lookup -u site -p guerejo

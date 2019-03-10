@@ -1,0 +1,22 @@
+# nginx configuration
+
+autoindex off;
+
+location /api {
+  rewrite ^/api/dbip/(.*) /dbip/get.php?ip=$1;
+  rewrite ^/api/ads/check/(.*) /dbip/sitelist.php?get=$1;
+  rewrite ^/api/get/(.*) /dbip/site.php?site=$1;
+  rewrite ^/api/ads/(.*) /ads/get.php?file=$1;
+  rewrite ^/api/timestamp /ads/timestamp.php;
+  rewrite ^/api/setclick/(.*)/(.*)$ /ads/click/setclick.php?tipo=$1&time=$2;
+  rewrite ^/api/getclick/(.*) /ads/click/checkip.php?tipo=$1;
+}
+
+location / {
+  if ($http_host ~* "^mania.gg$"){
+    rewrite ^(.*)$ https://www.mania.gg/$1 redirect;
+  }
+  if (!-e $request_filename){
+    rewrite ^(.*)$ /index.php/$1 break;
+  }
+}
