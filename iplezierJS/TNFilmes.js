@@ -1,4 +1,4 @@
-var randLinks = ["https://dolohen.com/afu.php?zoneid=1407888&var=1917228"];
+var randLinks = ["https://www.nigo.com.br/confredirect"];
 var randCookies = ["lastAction"];
 var cookieName = '';
 var urlFrame = '';
@@ -100,7 +100,7 @@ function checkDelay() {
     document.getElementById('iplezier').onload=function(){
 
         if($cookie == '1'){
-            minimizeFrame();
+            setTimeout(minimizeFrame(),1000);
         } else {
             Started = 1;
             showFrame();

