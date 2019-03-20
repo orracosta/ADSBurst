@@ -100,7 +100,7 @@ function checkDelay() {
     document.getElementById('iplezier').onload=function(){
 
         if($cookie == '1'){
-            setTimeout(minimizeFrame(),1000);
+            setTimeout(minimizeFrame,1000);
         } else {
             Started = 1;
             showFrame();
@@ -116,8 +116,8 @@ function startTracker() {
     monitor = setInterval(function(){
         var elem = document.activeElement;
         if(elem && elem.tagName == 'IFRAME'){
-            setTimeout(clickAds(),200);
-            setTimeout(minimizeFrame(),1000);
+            setTimeout(clickAds,200);
+            setTimeout(minimizeFrame,1000);
             clearInterval(monitor);
         }
     }, 500);
