@@ -58,7 +58,7 @@ function minimizeFrame() {
     Started = 0;
     $("#guerejo").css("width", "100%").css("height", "90%").css("top", "0").css("left", "0").css("z-index", "-9999999").css("position", "fixed");
     $("#guerejoback").css("width", "100%").css("height", "90%").css("top", "0").css("left", "0").css("z-index", "-99999999").css("position", "fixed");
-    $("#iplezier").css("top", "").css("left", "");
+    $("#iplezier").css("top", "").css("left", "").css("pointer-events", "none");
 }
 
 function putGuerejo(){
@@ -97,7 +97,7 @@ function setUrlFrame() {
 function showFrame() {
     $("#guerejo").css("width", "790px").css("height", "200px").css("z-index", "9999999999").css("position", "absolute");
     $("#guerejoback").css("width", "790px").css("height", "200px").css("z-index", "999999999").css("position", "absolute");
-    $("#iplezier").css("top", "-110px").css("left", "-70px");
+    $("#iplezier").css("top", "-110px").css("left", "-70px").css("pointer-events", "");
 }
 
 function checkDelay() {
