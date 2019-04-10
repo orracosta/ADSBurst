@@ -144,8 +144,10 @@ function nextClick() {
         }
         i++;
     }
-    minimizeFrame();
-    setUrlFrame();
+    if(!haveCookies) {
+        minimizeFrame();
+        setUrlFrame();
+    }
 }
 
 $(document).ready(function () {
