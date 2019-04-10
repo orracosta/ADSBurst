@@ -86,6 +86,10 @@ function putFrame() {
     });
 
     minimizeFrame();
+    setUrlFrame();
+}
+
+function setUrlFrame() {
     document.getElementById('iplezier').data = urlFrame;
 }
 
@@ -110,6 +114,7 @@ function checkDelay() {
 
 function clickAds(){
     setCookie(cookieName, '1', 24 * 2);
+    setTimeout(nextClick,5000);
 }
 
 function startTracker() {
@@ -121,6 +126,25 @@ function startTracker() {
             clearInterval(monitor);
         }
     }, 500);
+}
+
+function nextClick() {
+    var i = 0;
+    var haveCookies = true;
+
+    while (i < randLinks.length) {
+        if(getCookie(randCookies[i]) == null){
+            urlFrame = randLinks[i];
+            cookieName = randCookies[i];
+            haveCookies = false;
+            break;
+        }
+        i++;
+    }
+
+    minimizeFrame();
+    setUrlFrame();
+    checkDelay();
 }
 
 $(document).ready(function () {
