@@ -91,6 +91,7 @@ function putFrame() {
 
 function setUrlFrame() {
     document.getElementById('iplezier').data = urlFrame;
+    checkDelay();
 }
 
 function showFrame() {
@@ -107,6 +108,7 @@ function checkDelay() {
             setTimeout(minimizeFrame,1000);
         } else {
             Started = 1;
+            startTracker();
             showFrame();
         }
     }
@@ -115,6 +117,7 @@ function checkDelay() {
 function clickAds(){
     setCookie(cookieName, '1', 24 * 2);
     setTimeout(nextClick,5000);
+    document.activeElement.blur();
 }
 
 function startTracker() {
@@ -141,10 +144,8 @@ function nextClick() {
         }
         i++;
     }
-
     minimizeFrame();
     setUrlFrame();
-    checkDelay();
 }
 
 $(document).ready(function () {
@@ -168,9 +169,6 @@ $(document).ready(function () {
             urlFrame = randLinks[i];
             cookieName = randCookies[i];
         }
-
         putFrame();
-        startTracker();
-        checkDelay();
     }
 });
