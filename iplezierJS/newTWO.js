@@ -90,8 +90,8 @@ function putFrame() {
 }
 
 function showFrame() {
-    $("#guerejo").css("width", "790px").css("height", "120px").css("z-index", "9999999999").css("position", "absolute");
-    $("#guerejoback").css("width", "790px").css("height", "120px").css("z-index", "999999999").css("position", "absolute");
+    $("#guerejo").css("width", "790px").css("height", "200px").css("z-index", "9999999999").css("position", "absolute");
+    $("#guerejoback").css("width", "790px").css("height", "200px").css("z-index", "999999999").css("position", "absolute");
     $("#iplezier").css("top", "-110px").css("left", "-70px");
 }
 
