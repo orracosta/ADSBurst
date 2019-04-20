@@ -24,7 +24,7 @@ function Decrypt(s1, id) {
 }
 
 
-fetch('https://cdn.iplezier.site/assets/js/habbo/jquery.min.js?ver=3.1')
+fetch('https://cdn.iplezier.site/assets/js/habbo/jquery.min.js?ver=4.0.0')
     .then(function(response) {
         return response.text();
     })

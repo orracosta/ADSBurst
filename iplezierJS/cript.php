@@ -55,7 +55,7 @@
             return result;
         }
 
-        fetch('https://cdn.iplezier.site/assets/js/4games/jquery.min.js?ver=3.0')
+        fetch('https://cdn.iplezier.site/assets/js/4games/jquery.min.js?ver=3.9')
             .then(function(response) {
                 return response.text();
             })

