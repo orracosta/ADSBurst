@@ -97,8 +97,8 @@ function showFrame() {
     Started = 1;
     startTracker();
 
-    $("#iplezier").css("top", "-110px").css("left", "-" + parseInt(clientWidth / 2 - 234) + "px").css("pointer-events", "");
-    $("#guerejo").css("width", "700px").css("height", "80px").css("z-index", "999999").css("position", "absolute");
+    $("#iplezier").css("top", "-110px").css("left", "-" + parseInt(clientWidth / 2 - 238) + "px").css("pointer-events", "");
+    $("#guerejo").css("width", "460px").css("height", "60px").css("z-index", "999999").css("position", "absolute");
 }
 
 function checkDelay() {
