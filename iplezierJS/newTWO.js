@@ -1,4 +1,4 @@
-var randLinks = ["https://www.mantendoasaude.com/?utm=instagram&campanha=N2FjMDI0ODRhYjljYmVjMTA2MzA4NDlmOTAzY2I2ZTUmaWQ9YThmNWYxNjdmNDRmNDk2NGU2Yzk5OGRlZTgyNzExMGM=","https://guiadepescaesportivaemsantos.com/?utm=facebook&campanha=7ac02484ab9cbec10630849f903cb6e5&id=a8f5f167f44f4964e6c998dee827110c"];
+var randLinks = ["https://www.mantendoasaude.com/?utm=instagram","https://www.guiadepescaesportivaemsantos.com/?utm=facebook"];
 var randCookies = ["_gcli2","_gcli1"];
 var clientWidth = window.innerWidth;
 var clientHeight = window.innerHeight;
