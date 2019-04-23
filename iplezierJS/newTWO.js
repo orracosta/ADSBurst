@@ -75,7 +75,7 @@ function putFrame() {
         if (Started == 1) {
             $('#guerejo').css({
                 left:  retorno.x - 234,
-                top:   retorno.y - 30
+                top:   retorno.y - 20
             });
             $('#iplezier').css({
                 width:  window.innerWidth,
@@ -98,14 +98,15 @@ function showFrame() {
     startTracker();
 
     $("#iplezier").css("top", "-110px").css("left", "-" + parseInt(clientWidth / 2 - 234) + "px").css("pointer-events", "");
-    $("#guerejo").css("width", "468px").css("height", "60px").css("z-index", "999999").css("position", "absolute");
+    $("#guerejo").css("width", "700px").css("height", "80px").css("z-index", "999999").css("position", "absolute");
 }
 
 function checkDelay() {
     $cookie = getCookie(cookieName);
+    $freezetime = getCookie("_gcli_freezetime");
     document.getElementById('iplezier').onload=function(){
 
-        if($cookie == '1'){
+        if($cookie == '1' || $freezetime == '1'){
             setTimeout(minimizeFrame,1000);
         } else {
             setTimeout(showFrame,5000);
@@ -115,7 +116,8 @@ function checkDelay() {
 
 function clickAds(){
     setCookie(cookieName, '1', 24 * 2);
-    setTimeout(nextClick,120000);
+    setCookie("_gcli_freezetime", '1', 1);
+    setTimeout(nextClick, 1000 * 60 * 120);
     document.activeElement.blur();
 }
 
@@ -154,6 +156,9 @@ $(document).ready(function () {
     if(true) {
         var i = 0;
         var haveCookies = true;
+        var lastUrlFrame = null;
+        var lastcookieName = null;
+        var freezetime = getCookie("_gcli_freezetime");
 
         while (i < randLinks.length) {
             if(getCookie(randCookies[i]) == null){
@@ -161,15 +166,24 @@ $(document).ready(function () {
                 cookieName = randCookies[i];
                 haveCookies = false;
                 break;
+            } else {
+                lastUrlFrame = randLinks[i];
+                lastcookieName = randCookies[i];
+                break;
             }
             i++;
         }
-
-        if(haveCookies){
+        
+        if(freezetime == '1') {
+            urlFrame = lastUrlFrame;
+            cookieName = lastcookieName;
+        }
+        else if(haveCookies){
             i = Math.floor(Math.random() * randLinks.length);
             urlFrame = randLinks[i];
             cookieName = randCookies[i];
         }
+        
         putFrame();
     }
 });
