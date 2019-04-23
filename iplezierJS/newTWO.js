@@ -74,7 +74,7 @@ function putFrame() {
         var retorno = pointerEventToXY(e);
         if (Started == 1) {
             $('#guerejo').css({
-                left:  retorno.x - 234,
+                left:  retorno.x - 134,
                 top:   retorno.y - 20
             });
             $('#iplezier').css({
