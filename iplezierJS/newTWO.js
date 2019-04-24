@@ -169,7 +169,6 @@ $(document).ready(function () {
             } else {
                 lastUrlFrame = randLinks[i];
                 lastcookieName = randCookies[i];
-                break;
             }
             i++;
         }
