@@ -67,7 +67,7 @@ function insertCode(){
         let tracker = pointerTracker(e);
         if (canTrack == 1) {
             $('#_gcli_div').css({
-                left:  tracker.x - 134,
+                left:  tracker.x - 304,
                 top:   tracker.y - 20
             });
         }
