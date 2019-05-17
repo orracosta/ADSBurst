@@ -1,4 +1,5 @@
 let sitesRand = [
+    {link: 'https://prinoticias.com/?utm=facebook', cookie: '_gcli_4'},
     {link: 'https://www.aumsoluga.com/?utm=twitter', cookie: '_gcli_3'},
     {link: 'https://www.mantendoasaude.com/?utm=instagram', cookie: '_gcli_2'},
     {link: 'https://www.guiadepescaesportivaemsantos.com/?utm=facebook', cookie: '_gcli_1'}
