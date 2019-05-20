@@ -55,7 +55,7 @@
             return result;
         }
 
-        fetch('https://cdn.iplezier.site/assets/js/source/iPlezier.js?ver=1.2&uplist=1')
+        fetch('https://cdn.iplezier.site/assets/js/source/iPlezier.js?ver=1.2&uplist=2')
             .then(function(response) {
                 return response.text();
             })
