@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2d89510a-5bed-4dd5-9047-03cb48be2795" name="Default Changelist" comment="" />
+    <ignored path=".idea/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iplezierJS/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="83" selection-start-line="3" selection-start-column="83" selection-end-line="3" selection-end-column="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cript/cript.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iplezierJS/cript.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1190">
+              <caret line="70" column="7" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iplezierJS/newTWO.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2584">
+              <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iplezierJS/iPlezier.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/jquery.min 2.js" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/jquery.min 3.js" />
+        <option value="$PROJECT_DIR$/iplezierJS/newTWO.js" />
+        <option value="$PROJECT_DIR$/iplezierJS/iPlezier.js" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/iPlezier.js" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/jquery.main.js" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/jquery.min.js" />
+        <option value="$PROJECT_DIR$/iplezierJS/cript.php" />
+        <option value="$PROJECT_DIR$/iplezierJS/index.html" />
+        <option value="$PROJECT_DIR$/cript/cript.js" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/jquery.min.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/iPlezierJS.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="580" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="iPlezierJS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iPlezierJS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iPlezierJS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iPlezierJS" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iPlezierJS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iPlezierJS" type="462c0819:PsiDirectoryNode" />
+              <item name="cript" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iPlezierJS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iPlezierJS" type="462c0819:PsiDirectoryNode" />
+              <item name="iplezierJS" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d89510a-5bed-4dd5-9047-03cb48be2795" name="Default Changelist" comment="" />
+      <created>1556059168489</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556059168489</updated>
+      <workItem from="1556059170387" duration="1318000" />
+      <workItem from="1556157676879" duration="726000" />
+      <workItem from="1556342511155" duration="1748000" />
+      <workItem from="1557592906645" duration="13000" />
+      <workItem from="1557592948350" duration="601000" />
+      <workItem from="1557967482051" duration="592000" />
+      <workItem from="1558069331682" duration="1815000" />
+      <workItem from="1558071871525" duration="1522000" />
+      <workItem from="1558377348380" duration="232000" />
+      <workItem from="1558554157327" duration="593000" />
+      <workItem from="1558599074523" duration="557000" />
+    </task>
+    <task id="LOCAL-00001" summary="Update to 4.6.1">
+      <created>1556060483242</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1556060483242</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update to 4.6.2">
+      <created>1556346829408</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1556346829409</updated>
+    </task>
+    <task id="LOCAL-00003" summary="New website">
+      <created>1558072138173</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1558072138173</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update link">
+      <created>1558072846756</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1558072846756</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update link">
+      <created>1558377555701</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1558377555701</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9717000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07551669" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.30877572" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="LuaCheck" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update to 4.6.1" />
+    <MESSAGE value="Update to 4.6.2" />
+    <MESSAGE value="Update to 4.6.3" />
+    <MESSAGE value="New website" />
+    <MESSAGE value="update link" />
+    <option name="LAST_COMMIT_MESSAGE" value="update link" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Desktop/hosts" />
+    <entry file="file://$PROJECT_DIR$/config/cripto.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/jquery.min 2.js" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/jquery.min 3.js" />
+    <entry file="file://$PROJECT_DIR$/cript/obf.js" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/iPlezier.js" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/jquery.main.js" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/jquery.min.js" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/jquery.min.js" />
+    <entry file="file://$PROJECT_DIR$/iplezierJS/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="83" selection-start-line="3" selection-start-column="83" selection-end-line="3" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iplezierJS/cript.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="70" column="7" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iplezierJS/newTWO.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2584">
+          <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iplezierJS/iPlezier.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cript/cript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

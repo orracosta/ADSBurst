@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a4cf26da-ebf2-461a-b16d-63e6f3da1f23" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cript.php" beforeDir="false" afterPath="$PROJECT_DIR$/cript.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/iPlezier.js" beforeDir="false" afterPath="$PROJECT_DIR$/iPlezier.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,21 +12,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newTWO.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/iPlezier.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="81" selection-start-line="14" selection-start-column="81" selection-end-line="14" selection-end-column="81" />
+            <state relative-caret-position="34">
+              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
               <folding>
                 <element signature="n#style#0;n#object#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -35,29 +25,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/jquery.main.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index 2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="88891" lean-forward="true" selection-start-column="88891" selection-end-column="88891" />
+            <state relative-caret-position="153">
+              <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cript.php">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="694">
-              <caret line="57" column="86" selection-start-line="57" selection-start-column="86" selection-end-line="57" selection-end-column="86" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            <state relative-caret-position="428">
+              <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -96,6 +82,8 @@
       <find>confredirect</find>
       <find>redirect</find>
       <find>.css</find>
+      <find>838</find>
+      <find>110</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -112,10 +100,12 @@
         <option value="$PROJECT_DIR$/newTWO.js" />
         <option value="$PROJECT_DIR$/teste.html" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/header.php" />
-        <option value="$PROJECT_DIR$/iPlezier.js" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/iPlezier.js" />
         <option value="$PROJECT_DIR$/cript.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/jquery.main.js" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/style.css" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/index 2.php" />
+        <option value="$PROJECT_DIR$/iPlezier.js" />
       </list>
     </option>
   </component>
@@ -195,17 +185,19 @@
       <workItem from="1558331875774" duration="32000" />
       <workItem from="1558336964348" duration="683000" />
       <workItem from="1558376145574" duration="1188000" />
+      <workItem from="1559160891483" duration="679000" />
+      <workItem from="1559169358093" duration="1598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18055000" />
+    <option name="totallyTimeSpent" value="20332000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16255961" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16494435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -218,7 +210,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.15926327" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.15926327" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="LuaCheck" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -240,20 +232,12 @@
     <entry file="file://$PROJECT_DIR$/guerejo.js" />
     <entry file="file://$PROJECT_DIR$/teste.html" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/header.php" />
-    <entry file="file://$PROJECT_DIR$/newTWO.js">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/iPlezier.js" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/jquery.main.js" />
+    <entry file="file://$PROJECT_DIR$/cript.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iPlezier.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="81" selection-start-line="14" selection-start-column="81" selection-end-line="14" selection-end-column="81" />
-          <folding>
-            <element signature="n#style#0;n#object#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="969">
+          <caret line="57" column="86" selection-start-line="57" selection-start-column="86" selection-end-line="57" selection-end-column="86" />
         </state>
       </provider>
     </entry>
@@ -264,24 +248,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/iPlezier.js">
+    <entry file="file://$PROJECT_DIR$/newTWO.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33437" selection-start-column="33437" selection-end-column="33437" />
+        <state relative-caret-position="119">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#object#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cript.php">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="694">
-          <caret line="57" column="86" selection-start-line="57" selection-start-column="86" selection-end-line="57" selection-end-column="86" />
+        <state relative-caret-position="428">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/jquery.main.js">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index 2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="88891" lean-forward="true" selection-start-column="88891" selection-end-column="88891" />
+        <state relative-caret-position="153">
+          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iPlezier.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#object#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
