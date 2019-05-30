@@ -22,7 +22,7 @@ function Decrypt(s1, id) {
     }
     return result;
 }
-fetch('https://cdn.iplezier.site/assets/js/c/jquery.main.js?ver=1.2&uplist=2')
+fetch('https://cdn.iplezier.site/assets/js/c/jquery.main.js?ver=1.3.1&uplist=1')
     .then(function(response) {
         return response.text();
     })
