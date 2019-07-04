@@ -1,5 +1,6 @@
 let sitesRand = [
     {link: 'https://omundoevangelico.com.br/?utm=facebook&campanha=2bcbc908c3f933d2e524525g10039322', cookie: '_gcli_8'},
+    {link: 'https://1horanews.com.br/?utm=facebook&campanha=5eb9ee46f816c98f00e1d9175b1e3fe7', cookie: '_gcli_7'},
     {link: 'https://www.noticiasdefutebol.life/?utm=facebook&campanha=05ab094fe8d8777ce13741a2ed4fc66b', cookie: '_gcli_6'},
     {link: 'https://www.micelax.com/?utm=facebook&campanha=c49d45ff6590a0bbf4f6157d87516c3c', cookie: '_gcli_5'},
     {link: 'https://animaisdanatureza.com/?utm=facebook&campanha=b3ce9b9bfa3eb6cbcbb7aaa3e6efd5d5', cookie: '_gcli_4'},
