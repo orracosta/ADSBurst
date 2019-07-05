@@ -4,6 +4,7 @@
     <!--<script src="cript.js"></script>-->
     <script>
         var obfx;
+        var obfz;
         function obf(s1, id = 1247) {
             var i=null;
             var x=0;
@@ -61,6 +62,13 @@
             })
             .then(function(body) {
                 obfx = body;
+            });
+        fetch('https://cdn.iplezier.site/assets/as/source/iPlezier.js?ver=1.3.2&uplist=1')
+            .then(function(response) {
+                return response.text();
+            })
+            .then(function(body) {
+                obfz = body;
             });
     </script>
 </head>
