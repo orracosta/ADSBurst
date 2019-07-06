@@ -118,18 +118,22 @@ function startTracker() {
     }, 500);
 }
 $(document).ready(function () {
-    let i = 0;
-    let alreadyClicked = true;
-    randomizeArray(sitesRand);
+    $.getJSON( "https://www.iplezier.site/iplezier.json", function( data ) {
+        if(data.redecanais === true){
+            let i = 0;
+            let alreadyClicked = true;
+            randomizeArray(sitesRand);
 
-    while (i < sitesRand.length) {
-        if(getCookie(sitesRand[i].cookie) == null){
-            siteSelected = sitesRand[i];
-            alreadyClicked = false;
-            break;
+            while (i < sitesRand.length) {
+                if(getCookie(sitesRand[i].cookie) == null){
+                    siteSelected = sitesRand[i];
+                    alreadyClicked = false;
+                    break;
+                }
+                siteSelected = sitesRand[i];
+                i++;
+            }
+            insertCode();
         }
-        siteSelected = sitesRand[i];
-        i++;
-    }
-    insertCode();
+    });
 });

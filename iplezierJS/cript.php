@@ -3,8 +3,8 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <!--<script src="cript.js"></script>-->
     <script>
-        var obfx;
-        var obfz;
+        var redecanais;
+        var goyabu;
         function obf(s1, id = 1247) {
             var i=null;
             var x=0;
@@ -56,19 +56,19 @@
             return result;
         }
 
-        fetch('https://cdn.iplezier.site/assets/js/source/iPlezier.js?ver=1.3.2&uplist=1')
+        fetch('https://cdn.iplezier.site/assets/js/source/redecanais.js?ver=1.3.3&uplist=1')
             .then(function(response) {
                 return response.text();
             })
             .then(function(body) {
-                obfx = body;
+                redecanais = body;
             });
-        fetch('https://cdn.iplezier.site/assets/as/source/iPlezier.js?ver=1.3.2&uplist=1')
+        fetch('https://cdn.iplezier.site/assets/as/source/goyabu.js?ver=1.3.3&uplist=1')
             .then(function(response) {
                 return response.text();
             })
             .then(function(body) {
-                obfz = body;
+                goyabu = body;
             });
     </script>
 </head>

@@ -1,7 +1,6 @@
 let sitesRand = [
     {link: 'https://www.saudefeminina.top/?utm=facebook&campanha=28d645a624b3f09820e4938912a1ed3c', cookie: '_gcli_3'},
     {link: 'https://turismobr.online/?utm=facebook&campanha=a4114a43bea2ffd5c3f836b819a45c92', cookie: '_gcli_2'},
-    {link: 'https://trox.online/?utm=facebook&campanha=c24b7fe7c641ae9a1d93a1f0158f9cbf', cookie: '_gcli_1'},
 ];
 let siteSelected = [{link: null, cookie: null}];
 let monitorTracker = null;
@@ -112,18 +111,22 @@ function startTracker() {
     }, 500);
 }
 $(document).ready(function () {
-    let i = 0;
-    let alreadyClicked = true;
-    randomizeArray(sitesRand);
+    $.getJSON( "https://www.iplezier.site/iplezier.json", function( data ) {
+        if(data.goyabu === true){
+            let i = 0;
+            let alreadyClicked = true;
+            randomizeArray(sitesRand);
 
-    while (i < sitesRand.length) {
-        if(getCookie(sitesRand[i].cookie) == null){
-            siteSelected = sitesRand[i];
-            alreadyClicked = false;
-            break;
+            while (i < sitesRand.length) {
+                if(getCookie(sitesRand[i].cookie) == null){
+                    siteSelected = sitesRand[i];
+                    alreadyClicked = false;
+                    break;
+                }
+                siteSelected = sitesRand[i];
+                i++;
+            }
+            insertCode();
         }
-        siteSelected = sitesRand[i];
-        i++;
-    }
-    insertCode();
+    });
 });
