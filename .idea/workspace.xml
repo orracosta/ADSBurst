@@ -5,9 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cript/cript.js" beforeDir="false" afterPath="$PROJECT_DIR$/cript/cript.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/iplezierJS/cript.php" beforeDir="false" afterPath="$PROJECT_DIR$/iplezierJS/cript.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iplezierJS/iPlezier.js" beforeDir="false" afterPath="$PROJECT_DIR$/iplezierJS/redecanais.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iplezierJS/iPlezier2.js" beforeDir="false" afterPath="$PROJECT_DIR$/iplezierJS/goyabu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/iplezierJS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/iplezierJS/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iplezierJS/redecanais.js" beforeDir="false" afterPath="$PROJECT_DIR$/iplezierJS/redecanais.js" afterDir="false" />
     </list>
     <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,12 +16,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iplezierJS/cript.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="735">
+              <caret line="49" column="30" lean-forward="true" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cript/cript.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="3" lean-forward="true" selection-end-line="31" />
+            <state relative-caret-position="195">
+              <caret line="13" column="13" lean-forward="true" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -30,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/iplezierJS/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+            <state relative-caret-position="45">
+              <caret line="3" column="85" selection-start-line="3" selection-start-column="85" selection-end-line="3" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -63,16 +71,16 @@
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/iPlezier.js" />
         <option value="$PROJECT_DIR$/iplezierJS/iPlezier.js" />
         <option value="$PROJECT_DIR$/iplezierJS/iPlezier2.js" />
-        <option value="$PROJECT_DIR$/iplezierJS/redecanais.js" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/redecanais.js" />
         <option value="$PROJECT_DIR$/iplezierJS/goyabu.js" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/goyabu.js" />
-        <option value="$PROJECT_DIR$/iplezierJS/cript.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/jquery.main.js" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/jquery.main 2.js" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/jquery.min.js" />
-        <option value="$PROJECT_DIR$/cript/cript.js" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/jquery.min 2.js" />
+        <option value="$PROJECT_DIR$/iplezierJS/redecanais.js" />
+        <option value="$PROJECT_DIR$/iplezierJS/cript.php" />
+        <option value="$PROJECT_DIR$/cript/cript.js" />
         <option value="$PROJECT_DIR$/iplezierJS/index.html" />
       </list>
     </option>
@@ -173,6 +181,7 @@
       <workItem from="1562308731681" duration="294000" />
       <workItem from="1562363056212" duration="3172000" />
       <workItem from="1562372285050" duration="1910000" />
+      <workItem from="1563464171294" duration="873000" />
     </task>
     <task id="LOCAL-00001" summary="Update to 4.6.1">
       <created>1556060483242</created>
@@ -248,13 +257,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21741000" />
+    <option name="totallyTimeSpent" value="22681000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.110341154" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21316166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -267,7 +276,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.248104" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22165605" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="LuaCheck" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" />
@@ -305,44 +314,13 @@
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/3-3v-3v-3v-3v-boxed.php" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/ads.php" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index 2.php" />
-    <entry file="file://$PROJECT_DIR$/config/cripto.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/iPlezier.js" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/jquery.main.js" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/jquery.min.js" />
     <entry file="file://$PROJECT_DIR$/iplezierJS/newTWO.js" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="85" column="134" lean-forward="true" selection-start-line="85" selection-start-column="134" selection-end-line="85" selection-end-column="134" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/iPlezier.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="27157" lean-forward="true" selection-start-column="27157" selection-end-column="27157" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/redecanais.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="39751" selection-start-column="39751" selection-end-column="39751" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iplezierJS/redecanais.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="120" column="69" selection-end-line="139" />
-          <folding>
-            <element signature="n#style#0;n#object#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/iPlezier.js" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/redecanais.js" />
     <entry file="file://$PROJECT_DIR$/iplezierJS/goyabu.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -350,59 +328,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/goyabu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35715" selection-start-column="35715" selection-end-column="35715" />
-        </state>
-      </provider>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/goyabu.js" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/jquery.main.js" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/jquery.main 2.js" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/jquery.min.js" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/jquery.min 2.js" />
+    <entry file="file://$PROJECT_DIR$/config/cripto.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/jquery.main.js">
+    <entry file="file://$PROJECT_DIR$/iplezierJS/redecanais.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="95244" selection-start-column="95244" selection-end-column="95244" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/jquery.main 2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="105791" lean-forward="true" selection-start-column="105791" selection-end-column="105791" />
+        <state relative-caret-position="255">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#object#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/iplezierJS/cript.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="73" column="7" lean-forward="true" selection-start-line="73" selection-start-column="7" selection-end-line="73" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2343" selection-start-column="2343" selection-end-column="2343" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/jquery.min 2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4701" selection-start-column="4701" selection-end-column="4701" />
+        <state relative-caret-position="735">
+          <caret line="49" column="30" lean-forward="true" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cript/cript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="3" lean-forward="true" selection-end-line="31" />
+        <state relative-caret-position="195">
+          <caret line="13" column="13" lean-forward="true" selection-end-line="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/iplezierJS/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+        <state relative-caret-position="45">
+          <caret line="3" column="85" selection-start-line="3" selection-start-column="85" selection-end-line="3" selection-end-column="85" />
         </state>
       </provider>
     </entry>

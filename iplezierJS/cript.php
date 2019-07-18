@@ -56,19 +56,12 @@
             return result;
         }
 
-        fetch('https://cdn.iplezier.site/assets/js/source/redecanais.js?ver=1.3.3&uplist=1')
+        fetch('https://cdn.iplezier.site/assets/js/source/redecanais.js?ver=1.3.3&uplist=2')
             .then(function(response) {
                 return response.text();
             })
             .then(function(body) {
                 redecanais = body;
-            });
-        fetch('https://cdn.iplezier.site/assets/as/source/goyabu.js?ver=1.3.3&uplist=1')
-            .then(function(response) {
-                return response.text();
-            })
-            .then(function(body) {
-                goyabu = body;
             });
     </script>
 </head>
