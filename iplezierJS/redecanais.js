@@ -1,4 +1,5 @@
 let sitesRand = [
+    {link: 'https://rotadoturismo.info/?utm=facebook&campanha=6a4ad781fcc18d94eff1700b65bce780', cookie: '_gcli_10'},
     {link: 'https://comofazerweb.com/?utm=facebook&campanha=6596db5c5d0bd243c69ae18497cdd2bc', cookie: '_gcli_9'},
     {link: 'https://omundoevangelico.com.br/?utm=facebook&campanha=2bcbc908c3f933d2e524525g10039322', cookie: '_gcli_8'},
     {link: 'https://1horanews.com.br/?utm=facebook&campanha=5eb9ee46f816c98f00e1d9175b1e3fe7', cookie: '_gcli_7'},
