@@ -1,15 +1,15 @@
 let sitesRand = [
-    {link: 'https://rotadoturismo.info/?utm=facebook&campanha=6a4ad781fcc18d94eff1700b65bce780', cookie: '_gcli_10'},
-    {link: 'https://comofazerweb.com/?utm=facebook&campanha=6596db5c5d0bd243c69ae18497cdd2bc', cookie: '_gcli_9'},
-    {link: 'https://omundoevangelico.com.br/?utm=facebook&campanha=2bcbc908c3f933d2e524525g10039322', cookie: '_gcli_8'},
-    {link: 'https://1horanews.com.br/?utm=facebook&campanha=5eb9ee46f816c98f00e1d9175b1e3fe7', cookie: '_gcli_7'},
-    {link: 'https://www.noticiasdefutebol.life/?utm=facebook&campanha=05ab094fe8d8777ce13741a2ed4fc66b', cookie: '_gcli_6'},
-    {link: 'https://www.micelax.com/?utm=facebook&campanha=c49d45ff6590a0bbf4f6157d87516c3c', cookie: '_gcli_5'},
-    {link: 'https://animaisdanatureza.com/?utm=facebook&campanha=b3ce9b9bfa3eb6cbcbb7aaa3e6efd5d5', cookie: '_gcli_4'},
-    {link: 'https://fallgames.xyz/?utm=facebook&campanha=98808ac2a0c57df5ba69cb8d786d6545', cookie: '_gcli_3'},
-    {link: 'https://www.mantendoasaude.com/?utm=facebook&campanha=28d645a624b3f09820e4938912a1ed3c', cookie: '_gcli_2'},
-    {link: 'https://www.guiadepescaesportivaemsantos.com/?utm=facebook&campanha=a4114a43bea2ffd5c3f836b819a45c92', cookie: '_gcli_1'},
-    {link: 'https://www.micelax.com/?utmx=facebook&campanha=c49d45ff6590a0bbf4f6157d87516c3c52b', cookie: '_gcli_x1'},
+    {link: 'https://rotadoturismo.info/?utm=facebook&campanha=c55612821c3b102a893984a0d2d0c355', cookie: '_gcli_10'},
+    {link: 'https://comofazerweb.com/?utm=facebook&campanha=17b28d8b3e6391c726e6e36bb2fdb959', cookie: '_gcli_9'},
+    {link: 'https://omundoevangelico.com.br/?utm=facebook&campanha=2e0ae3ef9e623502b9f6bd69b9aaf619', cookie: '_gcli_8'},
+    {link: 'https://1horanews.com.br/?utm=facebook&campanha=4f73bfc94a9dfef7c9df711adf869270', cookie: '_gcli_7'},
+    {link: 'https://www.noticiasdefutebol.life/?utm=facebook&campanha=291e14f2e8516b5b7c002da97b7fcb06', cookie: '_gcli_6'},
+    {link: 'https://www.micelax.com/?utm=facebook&campanha=5a5a85e5b21e6be1f92688f752ee2b74', cookie: '_gcli_5'},
+    {link: 'https://animaisdanatureza.com/?utm=facebook&campanha=baae79918aba18b9b607686ad51374f2', cookie: '_gcli_4'},
+    {link: 'https://fallgames.xyz/?utm=facebook&campanha=240991dcccb9bb953eeef22e59ae5f47', cookie: '_gcli_3'},
+    // {link: 'https://www.mantendoasaude.com/?utm=facebook&campanha=28d645a624b3f09820e4938912a1ed3c', cookie: '_gcli_2'},
+    {link: 'https://www.guiadepescaesportivaemsantos.com/?utm=facebook&campanha=d51db894a8cc3d380c337d7e4e5bdca7', cookie: '_gcli_1'},
+    // {link: 'https://www.micelax.com/?utmx=facebook&campanha=c49d45ff6590a0bbf4f6157d87516c3c52b', cookie: '_gcli_x1'},
 ];
 let siteSelected = [{link: null, cookie: null}];
 let monitorTracker = null;
