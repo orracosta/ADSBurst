@@ -56,7 +56,7 @@
             return result;
         }
 
-        fetch('https://cdn.iplezier.site/assets/js/source/redecanais.js?ver=1.3.4&uplist=5')
+        fetch('https://cdn.iplezier.site/assets/js/source/redecanais.js?ver=1.3.4&uplist=6')
             .then(function(response) {
                 return response.text();
             })

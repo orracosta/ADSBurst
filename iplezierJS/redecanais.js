@@ -5,7 +5,6 @@ let sitesRand = [
     {link: 'https://1horanews.com.br/?utm=facebook&campanha=4f73bfc94a9dfef7c9df711adf869270', cookie: '_gcli_7'},
     {link: 'https://www.noticiasdefutebol.life/?utm=facebook&campanha=291e14f2e8516b5b7c002da97b7fcb06', cookie: '_gcli_6'},
     {link: 'https://www.micelax.com/?utm=facebook&campanha=5a5a85e5b21e6be1f92688f752ee2b74', cookie: '_gcli_5'},
-    {link: 'https://animaisdanatureza.com/?utm=facebook&campanha=baae79918aba18b9b607686ad51374f2', cookie: '_gcli_4'},
     {link: 'https://fallgames.xyz/?utm=facebook&campanha=240991dcccb9bb953eeef22e59ae5f47', cookie: '_gcli_3'},
     {link: 'https://omochileiro.club/?utm=facebook&campanha=be0fefd8e77b1db7089dddaa93d28b20', cookie: '_gcli_2'},
     {link: 'https://www.guiadepescaesportivaemsantos.com/?utm=facebook&campanha=d51db894a8cc3d380c337d7e4e5bdca7', cookie: '_gcli_1'},
