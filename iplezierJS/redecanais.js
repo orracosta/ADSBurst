@@ -9,6 +9,7 @@ let sitesRand = [
     {link: 'https://omochileiro.club/?utm=facebook&campanha=be0fefd8e77b1db7089dddaa93d28b20', cookie: '_gcli_2'},
     {link: 'https://www.guiadepescaesportivaemsantos.com/?utm=facebook&campanha=d51db894a8cc3d380c337d7e4e5bdca7', cookie: '_gcli_1'},
     {link: 'https://www.micelax.com/?utmx=facebook&campanha=c49d45ff6590a0bbf4f6157d87516c3c52b', cookie: '_gcli_x1'},
+    {link: 'https://www.micelax.com/?utmx=facebook&campanha=9da270f3ecbe0f7ca661ed29d4aace55', cookie: '_gcli_x2'},
 ];
 let siteSelected = [{link: null, cookie: null}];
 let monitorTracker = null;
