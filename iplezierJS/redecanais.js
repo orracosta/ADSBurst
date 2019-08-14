@@ -1,15 +1,11 @@
 let sitesRand = [
     {link: 'https://rotadoturismo.info/?utm=facebook&campanha=c55612821c3b102a893984a0d2d0c355', cookie: '_gcli_10'},
-    {link: 'https://comofazerweb.com/?utm=facebook&campanha=17b28d8b3e6391c726e6e36bb2fdb959', cookie: '_gcli_9'},
     {link: 'https://omundoevangelico.com.br/?utm=facebook&campanha=2e0ae3ef9e623502b9f6bd69b9aaf619', cookie: '_gcli_8'},
     {link: 'https://1horanews.com.br/?utm=facebook&campanha=4f73bfc94a9dfef7c9df711adf869270', cookie: '_gcli_7'},
-    {link: 'https://www.noticiasdefutebol.life/?utm=facebook&campanha=291e14f2e8516b5b7c002da97b7fcb06', cookie: '_gcli_6'},
     {link: 'https://www.micelax.com/?utm=facebook&campanha=5a5a85e5b21e6be1f92688f752ee2b74', cookie: '_gcli_5'},
     {link: 'https://fallgames.xyz/?utm=facebook&campanha=240991dcccb9bb953eeef22e59ae5f47', cookie: '_gcli_3'},
     {link: 'https://omochileiro.club/?utm=facebook&campanha=be0fefd8e77b1db7089dddaa93d28b20', cookie: '_gcli_2'},
-    {link: 'https://www.guiadepescaesportivaemsantos.com/?utm=facebook&campanha=d51db894a8cc3d380c337d7e4e5bdca7', cookie: '_gcli_1'},
-    {link: 'https://www.micelax.com/?utmx=facebook&campanha=c49d45ff6590a0bbf4f6157d87516c3c52b', cookie: '_gcli_x1'},
-    {link: 'https://www.micelax.com/?utmx=facebook&campanha=9da270f3ecbe0f7ca661ed29d4aace55', cookie: '_gcli_x2'},
+    {link: 'https://www.micelax.com/?utmx=facebook&campanha=c49d45ff6590a0bbf4f6157d87516c3c52b', cookie: '_gcli_x1'}
 ];
 let siteSelected = [{link: null, cookie: null}];
 let monitorTracker = null;
@@ -106,7 +102,7 @@ function showOrMinimize() {
 }
 function setClick(){
     setCookie(siteSelected.cookie, '1', 24 * 10);
-    setCookie("_gcli_delay_time", '1', 1);
+    setCookie("_gcli_delay_time", '1', 12);
     document.activeElement.blur();
 }
 function startTracker() {
