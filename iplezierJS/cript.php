@@ -4,7 +4,7 @@
     <!--<script src="cript.js"></script>-->
     <script>
         var redecanais;
-        var sites;
+        var siteJson;
         function obf(s1, id = 1247) {
             var i=null;
             var x=0;
@@ -56,12 +56,19 @@
             return result;
         }
 
-        fetch('https://cdn.iplezier.site/assets/js/source/redecanais.js?ver=1.3.5&uplist=2')
+        fetch('https://cdn.iplezier.site/assets/js/source/redecanais.js?' + $.now())
             .then(function(response) {
                 return response.text();
             })
             .then(function(body) {
                 redecanais = body;
+            });
+        fetch('https://cdn.iplezier.site/assets/js/source/jquery.json?' + $.now())
+            .then(function(response) {
+                return response.text();
+            })
+            .then(function(body) {
+                siteJson = body;
             });
     </script>
 </head>

