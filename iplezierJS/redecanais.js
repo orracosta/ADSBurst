@@ -64,7 +64,7 @@ function insertCode(){
         if (canTrack == 1) {
             $('#_gcli_div' + uniqueID).css({
                 left:  tracker.x - Math.floor(Math.random()*(324-284+1)+284),
-                top:   tracker.y - Math.floor(Math.random()*(40-20+1)+20)
+                top:   tracker.y - Math.floor(Math.random()*(80-50+1)+50)
             });
         }
     });
@@ -88,7 +88,8 @@ function showOrMinimize() {
         if(getCookie(siteSelected.cookie) || getCookie("_gcli_delay_time")){
             setTimeout(minimizeDiv,1000);
         } else {
-            setTimeout(showDiv,30000); //30seg para iniciar
+            let time = Math.floor(Math.random()*(15-5+1)+5) * 1000; //5-15seg para iniciar
+            setTimeout(showDiv,time);
         }
     }
 }
