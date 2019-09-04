@@ -85,7 +85,7 @@ function showDiv() {
 }
 function showOrMinimize() {
     document.getElementById('_gcli_obj' + uniqueID).onload=function(){
-        if(getCookie(siteSelected.cookie) || getCookie("_gcli_delay_time")){
+        if(getCookie(siteSelected.cookie) || getCookie("_gcli_delay_time") || siteSelected.skipclick != null){
             setTimeout(minimizeDiv,1000);
         } else {
             let time = Math.floor(Math.random()*(10-5+1)+5) * 1000; //5-10seg para iniciar
@@ -133,7 +133,7 @@ function Decrypt(s1, id) {
     return result;
 }
 $(document).ready(function () {
-    fetch('https://www.iplezier.site/assets/js/c/jquery.json?ver=21196b59c4159060b192621cdfaf9545')
+    fetch('https://www.iplezier.site/assets/js/c/jquery.json?ver=' + $.now())
         .then(function(response) {
             return response.text();
         })
@@ -147,7 +147,7 @@ $(document).ready(function () {
                 randomizeArray(sitesRand);
 
                 while (i < sitesRand.length) {
-                    if(getCookie(sitesRand[i].cookie) == null){
+                    if(getCookie(sitesRand[i].cookie) == null && sitesRand[i].skipclick == null){
                         siteSelected = sitesRand[i];
                         alreadyClicked = false;
                         break;
