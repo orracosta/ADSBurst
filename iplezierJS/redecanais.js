@@ -63,8 +63,8 @@ function insertCode(){
         let tracker = pointerTracker(e);
         if (canTrack == 1) {
             $('#_gcli_div' + uniqueID).css({
-                left:  tracker.x - Math.floor(Math.random()*(274-234+1)+234),
-                top:   tracker.y - Math.floor(Math.random()*(80-55+1)+55)
+                left:  tracker.x - Math.floor(Math.random()*(324-284+1)+284),
+                top:   tracker.y - Math.floor(Math.random()*(60-50+1)+50)
             });
         }
     });

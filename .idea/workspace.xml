@@ -17,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/iplezierJS/redecanais.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="83" column="47" selection-start-line="83" selection-start-column="47" selection-end-line="83" selection-end-column="47" />
+            <state relative-caret-position="354">
+              <caret line="60" column="33" lean-forward="true" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
               <folding>
                 <element signature="n#style#0;n#object#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -220,7 +220,8 @@
       <workItem from="1567539499190" duration="965000" />
       <workItem from="1567541413730" duration="939000" />
       <workItem from="1567604976412" duration="481000" />
-      <workItem from="1567606126243" duration="767000" />
+      <workItem from="1567606126243" duration="1287000" />
+      <workItem from="1567634116893" duration="580000" />
     </task>
     <task id="LOCAL-00001" summary="Update to 4.6.1">
       <created>1556060483242</created>
@@ -369,11 +370,25 @@
       <option name="project" value="LOCAL" />
       <updated>1567541788473</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Update script to 2.3.2">
+      <created>1567606988281</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1567606988281</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Update script to 2.3.2 - change delay time to click">
+      <created>1567607183799</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1567607183799</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54021000" />
+    <option name="totallyTimeSpent" value="55121000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -388,7 +403,7 @@
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28898427" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2932761" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -401,7 +416,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3299363" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4914712" visible="true" weight="0.22165605" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4914712" visible="true" weight="0.22165605" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50159913" side_tool="true" weight="0.248104" />
       <window_info anchor="bottom" id="LuaCheck" order="12" weight="0.3299363" />
       <window_info anchor="bottom" id="Messages" order="13" />
@@ -445,7 +460,9 @@
     <MESSAGE value="Update script to 2.2" />
     <MESSAGE value="Update script to 2.3" />
     <MESSAGE value="Update script to 2.3.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update script to 2.3.1" />
+    <MESSAGE value="Update script to 2.3.2" />
+    <MESSAGE value="Update script to 2.3.2 - change delay time to click" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update script to 2.3.2 - change delay time to click" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Desktop/hosts" />
@@ -482,10 +499,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iplezierJS/cript.php">
+    <entry file="file://$PROJECT_DIR$/iplezierJS/redecanais.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="75" column="6" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="6" />
+        <state relative-caret-position="354">
+          <caret line="60" column="33" lean-forward="true" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#object#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -496,13 +516,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iplezierJS/redecanais.js">
+    <entry file="file://$PROJECT_DIR$/iplezierJS/cript.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="83" column="47" selection-start-line="83" selection-start-column="47" selection-end-line="83" selection-end-column="47" />
-          <folding>
-            <element signature="n#style#0;n#object#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="1125">
+          <caret line="75" column="6" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="6" />
         </state>
       </provider>
     </entry>
