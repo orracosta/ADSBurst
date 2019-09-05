@@ -155,7 +155,8 @@ $(document).ready(function () {
                     siteSelected = sitesRand[i];
                     i++;
                 }
-                insertCode();
+                if(alreadyClicked == false || alreadyClicked == true && Math.floor(Math.random()*(3-1+1)+1) == 3)
+                    insertCode();
             }
         });
 });
