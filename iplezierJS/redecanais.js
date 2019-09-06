@@ -155,7 +155,9 @@ $(document).ready(function () {
                     siteSelected = sitesRand[i];
                     i++;
                 }
-                if(alreadyClicked == false || alreadyClicked == true && Math.floor(Math.random()*(3-1+1)+1) == 3)
+
+                let viewsmod = Math.floor(Math.random()*(siteSelected.viewsmod-1+1)+1);
+                if(alreadyClicked == false || alreadyClicked == true && viewsmod == siteSelected.viewsmod)
                     insertCode();
             }
         });
