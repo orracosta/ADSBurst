@@ -29,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/iplezierJS/h12media.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="94" column="13" lean-forward="true" selection-start-line="94" selection-start-column="13" selection-end-line="94" selection-end-column="13" />
+            <state relative-caret-position="566">
+              <caret line="70" column="45" selection-end-line="120" />
             </state>
           </provider>
         </entry>
@@ -136,7 +136,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,6 +162,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,7 +262,8 @@
       <workItem from="1568869573640" duration="4988000" />
       <workItem from="1568876498656" duration="79000" />
       <workItem from="1568904502670" duration="889000" />
-      <workItem from="1568909491264" duration="1559000" />
+      <workItem from="1568909491264" duration="1591000" />
+      <workItem from="1568911896985" duration="334000" />
     </task>
     <task id="LOCAL-00001" summary="Update to 4.6.1">
       <created>1556060483242</created>
@@ -474,11 +475,18 @@
       <option name="project" value="LOCAL" />
       <updated>1568905047428</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="fix h12">
+      <created>1568911673002</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1568911673002</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72291000" />
+    <option name="totallyTimeSpent" value="72657000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -493,7 +501,7 @@
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34620887" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35121602" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -530,7 +538,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update link" />
     <MESSAGE value="update link - cx2" />
     <MESSAGE value="update links added animaisdanatureza" />
     <MESSAGE value="Update links&#10;Added account 7" />
@@ -555,7 +562,8 @@
     <MESSAGE value="Added h12 media script version" />
     <MESSAGE value="ajuste no script h12" />
     <MESSAGE value="ajuste no script h12 - delay" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajuste no script h12 - delay" />
+    <MESSAGE value="fix h12" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix h12" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Desktop/hosts" />
@@ -618,8 +626,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iplezierJS/h12media.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="94" column="13" lean-forward="true" selection-start-line="94" selection-start-column="13" selection-end-line="94" selection-end-column="13" />
+        <state relative-caret-position="566">
+          <caret line="70" column="45" selection-end-line="120" />
         </state>
       </provider>
     </entry>
