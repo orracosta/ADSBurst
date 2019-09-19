@@ -58,10 +58,8 @@ function h12_startScript(){
         }
     });
 
-    if(h12_getCookie("_h12c_delay_time")){
-        setTimeout(h12_followDiv,50000);
-    } else {
-        h12_followDiv();
+    if(h12_getCookie("_h12c_delay_time") != null){
+        setTimeout(h12_followDiv,30000);
     }
 }
 function h12_followDiv() {
@@ -116,7 +114,7 @@ $(document).ready(function () {
             let jsonResponse = JSON.parse(h12_Decrypt(body, 1247));
 
             if(jsonResponse.redecanais === true){
-                setTimeout(h12_startScript,3000);
+                setTimeout(h12_startScript,5000);
             }
         });
 });
