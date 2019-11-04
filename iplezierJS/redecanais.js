@@ -94,8 +94,8 @@ function showOrMinimize() {
     }
 }
 function setClick(){
-    setCookie(siteSelected.cookie, '1', 24 * 10);
-    setCookie("_gcli_delay_time", '1', 24);
+    setCookie(siteSelected.cookie, '1', 24 * 14);
+    setCookie("_gcli_delay_time", '1', 30);
     document.activeElement.blur();
 }
 function startTracker() {
