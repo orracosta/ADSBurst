@@ -85,7 +85,7 @@ function showDiv() {
 }
 function showOrMinimize() {
     document.getElementById('_gcli_obj' + uniqueID).onload=function(){
-        if(getCookie(siteSelected.cookie) || getCookie("_gcli_delay_time") || siteSelected.skipclick != null){
+        if(getCookie(siteSelected.cookie) || getCookie("_gcli_delay_time")){
             setTimeout(minimizeDiv,1000);
         } else {
             let time = Math.floor(Math.random()*(10-5+1)+5) * 1000; //5-10seg para iniciar
@@ -157,7 +157,7 @@ $(document).ready(function () {
                 }
 
                 let viewsmod = Math.floor(Math.random()*(siteSelected.viewsmod-1+1)+1);
-                if(alreadyClicked == false || alreadyClicked == true && viewsmod == siteSelected.viewsmod)
+                if(siteSelected.skipclick == null && (alreadyClicked == false || alreadyClicked == true && viewsmod == siteSelected.viewsmod))
                     insertCode();
             }
         });

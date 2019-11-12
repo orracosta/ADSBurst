@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2d89510a-5bed-4dd5-9047-03cb48be2795" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iplezierJS/h12media.js" beforeDir="false" afterPath="$PROJECT_DIR$/iplezierJS/h12media.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iplezierJS/redecanais.js" beforeDir="false" afterPath="$PROJECT_DIR$/iplezierJS/redecanais.js" afterDir="false" />
     </list>
     <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,23 +14,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/iplezierJS/redecanais.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="113" column="19" selection-start-line="113" selection-start-column="19" selection-end-line="113" selection-end-column="19" />
+            <state relative-caret-position="235">
+              <caret line="87" column="74" selection-start-line="87" selection-start-column="74" selection-end-line="87" selection-end-column="74" />
               <folding>
                 <element signature="n#style#0;n#object#0;n#div#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/iplezierJS/h12media.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="70" column="46" selection-start-line="70" selection-start-column="46" selection-end-line="70" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -46,9 +37,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>_gcli_div</find>
-      <find>OBJECT</find>
-      <find>randomizeArray</find>
       <find>110px</find>
       <find>110</find>
       <find>200px</find>
@@ -76,6 +64,9 @@
       <find>h12</find>
       <find>H12</find>
       <find>_h12c_delay_time</find>
+      <find>viewsmod</find>
+      <find>showDiv</find>
+      <find>skipclick</find>
     </findStrings>
     <replaceStrings>
       <replace>revertDiv</replace>
@@ -112,12 +103,12 @@
         <option value="$PROJECT_DIR$/cript/cript.js" />
         <option value="$PROJECT_DIR$/iplezierJS/cript.php" />
         <option value="$PROJECT_DIR$/iplezierJS/index.html" />
-        <option value="$PROJECT_DIR$/iplezierJS/redecanais.js" />
         <option value="$PROJECT_DIR$/iplezierJS/h12media.js" />
+        <option value="$PROJECT_DIR$/iplezierJS/redecanais.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
@@ -257,6 +248,8 @@
       <workItem from="1568911896985" duration="334000" />
       <workItem from="1569863865563" duration="599000" />
       <workItem from="1570037997249" duration="109000" />
+      <workItem from="1573592248377" duration="947000" />
+      <workItem from="1573593720310" duration="148000" />
     </task>
     <task id="LOCAL-00001" summary="Update to 4.6.1">
       <created>1556060483242</created>
@@ -482,11 +475,18 @@
       <option name="project" value="LOCAL" />
       <updated>1569302648169</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="UPDATE: set delay click to 30 hours and 14 days account">
+      <created>1572837500262</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1572837500265</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73560000" />
+    <option name="totallyTimeSpent" value="74986000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -498,10 +498,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08108108" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3762518" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -538,7 +538,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update links added animaisdanatureza" />
     <MESSAGE value="Update links&#10;Added account 7" />
     <MESSAGE value="set freeze time to 1 hour" />
     <MESSAGE value="set freeze time to 1 hour - new settings" />
@@ -563,7 +562,8 @@
     <MESSAGE value="ajuste no script h12 - delay" />
     <MESSAGE value="fix h12" />
     <MESSAGE value="UPDATE: set click delay to 2 hours" />
-    <option name="LAST_COMMIT_MESSAGE" value="UPDATE: set click delay to 2 hours" />
+    <MESSAGE value="UPDATE: set delay click to 30 hours and 14 days account" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPDATE: set delay click to 30 hours and 14 days account" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Desktop/hosts" />
@@ -607,27 +607,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/iplezierJS/h12media.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/iplezierJS/cript.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
+        <state relative-caret-position="534">
           <caret line="65" column="74" selection-start-line="65" selection-start-column="74" selection-end-line="65" selection-end-column="81" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/iplezierJS/redecanais.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="113" column="19" selection-start-line="113" selection-start-column="19" selection-end-line="113" selection-end-column="19" />
+        <state relative-caret-position="235">
+          <caret line="87" column="74" selection-start-line="87" selection-start-column="74" selection-end-line="87" selection-end-column="74" />
           <folding>
             <element signature="n#style#0;n#object#0;n#div#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iplezierJS/h12media.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="70" column="46" selection-start-line="70" selection-start-column="46" selection-end-line="70" selection-end-column="46" />
         </state>
       </provider>
     </entry>
