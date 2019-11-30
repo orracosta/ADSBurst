@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d89510a-5bed-4dd5-9047-03cb48be2795" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/iplezierJS/redecanais.js" beforeDir="false" afterPath="$PROJECT_DIR$/iplezierJS/redecanais.js" afterDir="false" />
     </list>
     <ignored path=".idea/" />
@@ -16,10 +17,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/iplezierJS/redecanais.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="135" column="51" selection-start-line="135" selection-start-column="51" selection-end-line="135" selection-end-column="51" />
+            <state relative-caret-position="283">
+              <caret line="151" column="39" selection-start-line="151" selection-start-column="39" selection-end-line="151" selection-end-column="39" />
               <folding>
-                <element signature="n#style#0;n#object#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#object#0;n#div#1;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,7 +82,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>siteSelected.cookie</find>
       <find>delay_</find>
       <find>getCookie(&quot;_gcli_delay_time&quot;)</find>
       <find>siteSelected</find>
@@ -111,6 +111,7 @@
       <find>apped</find>
       <find>setc</find>
       <find>setClick</find>
+      <find>_gcli_backgrd</find>
     </findStrings>
     <replaceStrings>
       <replace>revertDiv</replace>
@@ -299,6 +300,7 @@
       <workItem from="1574974853515" duration="623000" />
       <workItem from="1575032470125" duration="10818000" />
       <workItem from="1575070834641" duration="737000" />
+      <workItem from="1575087750337" duration="1553000" />
     </task>
     <task id="LOCAL-00001" summary="Update to 4.6.1">
       <created>1556060483242</created>
@@ -545,11 +547,18 @@
       <option name="project" value="LOCAL" />
       <updated>1575071069311</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="ALRIGHT - bug que nao registrava o clique corrigido!">
+      <created>1575088036628</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1575088036628</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87188000" />
+    <option name="totallyTimeSpent" value="88741000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -562,8 +571,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08664547" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08704293" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -600,7 +610,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="set freeze time to 1 hour - new settings" />
     <MESSAGE value="added animes sites" />
     <MESSAGE value="Added account ADS10 to script" />
     <MESSAGE value="update links" />
@@ -625,7 +634,8 @@
     <MESSAGE value="UPDATE: set delay click to 30 hours and 14 days account" />
     <MESSAGE value="Update to new struct" />
     <MESSAGE value="FUCK YOU BITCH - UPDATE" />
-    <option name="LAST_COMMIT_MESSAGE" value="FUCK YOU BITCH - UPDATE" />
+    <MESSAGE value="ALRIGHT - bug que nao registrava o clique corrigido!" />
+    <option name="LAST_COMMIT_MESSAGE" value="ALRIGHT - bug que nao registrava o clique corrigido!" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Desktop/hosts" />
@@ -664,10 +674,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iplezierJS/redecanais.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="135" column="51" selection-start-line="135" selection-start-column="51" selection-end-line="135" selection-end-column="51" />
+        <state relative-caret-position="283">
+          <caret line="151" column="39" selection-start-line="151" selection-start-column="39" selection-end-line="151" selection-end-column="39" />
           <folding>
-            <element signature="n#style#0;n#object#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#object#0;n#div#1;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
