@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2d89510a-5bed-4dd5-9047-03cb48be2795" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iplezierJS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/iplezierJS/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/iplezierJS/redecanais.js" beforeDir="false" afterPath="$PROJECT_DIR$/iplezierJS/redecanais.js" afterDir="false" />
     </list>
     <ignored path=".idea/" />
@@ -18,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/iplezierJS/redecanais.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            <state relative-caret-position="264">
+              <caret line="135" column="51" lean-forward="true" selection-start-line="135" selection-start-column="51" selection-end-line="135" selection-end-column="51" />
               <folding>
                 <element signature="n#style#0;n#object#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -30,11 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iplezierJS/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="115" selection-start-line="8" selection-start-column="115" selection-end-line="8" selection-end-column="115" />
-              <folding>
-                <element signature="n#style#0;n#iframe#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="45">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -50,8 +46,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>uniqueID</find>
-      <find>pointerTracker</find>
       <find>setCookie</find>
       <find>getCookie</find>
       <find>minimizeDiv</find>
@@ -80,6 +74,8 @@
       <find>_gcli_div</find>
       <find>object</find>
       <find>OBJECT</find>
+      <find>100%</find>
+      <find>1px1</find>
     </findStrings>
     <replaceStrings>
       <replace>revertDiv</replace>
@@ -133,7 +129,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,6 +155,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -270,7 +266,8 @@
       <workItem from="1575070834641" duration="737000" />
       <workItem from="1575087750337" duration="1553000" />
       <workItem from="1575123502670" duration="384000" />
-      <workItem from="1575125077700" duration="1272000" />
+      <workItem from="1575125077700" duration="2168000" />
+      <workItem from="1575131753535" duration="334000" />
     </task>
     <task id="LOCAL-00001" summary="Update to 4.6.1">
       <created>1556060483242</created>
@@ -524,11 +521,25 @@
       <option name="project" value="LOCAL" />
       <updated>1575088036628</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="revert changes">
+      <created>1575128296838</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1575128296838</updated>
+    </task>
+    <task id="LOCAL-00038" summary="temporary fix">
+      <created>1575130623363</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1575130623363</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90442000" />
+    <option name="totallyTimeSpent" value="91672000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -543,7 +554,7 @@
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21816881" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22103004" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -556,7 +567,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3299363" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4914712" visible="true" weight="0.22165605" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4914712" visible="true" weight="0.22165605" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50159913" side_tool="true" weight="0.248104" />
       <window_info anchor="bottom" id="LuaCheck" order="12" weight="0.3299363" />
       <window_info anchor="bottom" id="Messages" order="13" />
@@ -580,8 +591,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added animes sites" />
-    <MESSAGE value="Added account ADS10 to script" />
     <MESSAGE value="update links" />
     <MESSAGE value="removed old site" />
     <MESSAGE value="Removed banned accounts&#10;Set to 12 hours delay click" />
@@ -605,7 +614,9 @@
     <MESSAGE value="Update to new struct" />
     <MESSAGE value="FUCK YOU BITCH - UPDATE" />
     <MESSAGE value="ALRIGHT - bug que nao registrava o clique corrigido!" />
-    <option name="LAST_COMMIT_MESSAGE" value="ALRIGHT - bug que nao registrava o clique corrigido!" />
+    <MESSAGE value="revert changes" />
+    <MESSAGE value="temporary fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="temporary fix" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Desktop/hosts" />
@@ -670,23 +681,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iplezierJS/index.html">
+    <entry file="file://$PROJECT_DIR$/iplezierJS/redecanais.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="115" selection-start-line="8" selection-start-column="115" selection-end-line="8" selection-end-column="115" />
+        <state relative-caret-position="264">
+          <caret line="135" column="51" lean-forward="true" selection-start-line="135" selection-start-column="51" selection-end-line="135" selection-end-column="51" />
           <folding>
-            <element signature="n#style#0;n#iframe#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#object#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iplezierJS/redecanais.js">
+    <entry file="file://$PROJECT_DIR$/iplezierJS/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <element signature="n#style#0;n#object#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
