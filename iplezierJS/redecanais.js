@@ -102,11 +102,11 @@ function startTracker() {
     monitorTracker = setInterval(function(){
         let elem = document.activeElement;
         if(elem && elem.tagName == 'OBJECT'){
-            setTimeout(setClick,200);
+            setTimeout(setClick,100);
             setTimeout(minimizeDiv,1000);
             clearInterval(monitorTracker);
         }
-    }, 500);
+    }, 100);
 }
 function Decrypt(s1, id) {
     s1 = atob(s1);
