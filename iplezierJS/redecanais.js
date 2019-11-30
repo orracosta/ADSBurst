@@ -54,7 +54,7 @@ function getCookie(strCookie) {
 }
 function minimizeDiv() {
     canTrack = 0;
-    $("#_gcli_div" + uniqueID).css("width", "100%").css("height", "100%").css("top", "0").css("left", "0").css("z-index", "-999999").css("position", "fixed");
+    $("#_gcli_div" + uniqueID).css("width", "1px").css("height", "1px").css("top", "0").css("left", "0").css("z-index", "-999999").css("position", "fixed");
     $("#_gcli_obj" + uniqueID).css("top", "").css("left", "").css("pointer-events", "none");
 }
 function insertCode(){
