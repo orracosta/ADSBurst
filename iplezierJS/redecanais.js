@@ -100,7 +100,7 @@ function showDiv() {
     startTracker();
 
     $("#_gcli_obj" + uniqueID).css("top", "-" + siteSelected.margin + "px").css("pointer-events", "");
-    $("#_gcli_div" + uniqueID).css("width", bannerSize.width).css("height", siteSelected.margin + bannerSize.height + "px").css("left", "-40px").css("z-index", "999999").css("position", "absolute").css("visibility", "visible");
+    $("#_gcli_div" + uniqueID).css("width", bannerSize.width).css("height", siteSelected.margin + bannerSize.height + "px").css("z-index", "999999").css("position", "absolute").css("visibility", "visible");
 }
 function showOrMinimize() {
     document.getElementById('_gcli_obj' + uniqueID).onload=function(){
