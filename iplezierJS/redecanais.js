@@ -166,6 +166,7 @@ $(document).ready(function () {
             let delaytime = false;
             randomizeArray(sitesRand);
 
+            console.log(sitesRand);
             if(getCookie("_gcli_delay_time") !== null) {
                 while (i < sitesRand.length) {
                     if (sitesRand[i].cookie === getCookie("_gcli_delay_time")) {
@@ -180,7 +181,6 @@ $(document).ready(function () {
 
             if(!delaytime){
                 let haveLastSite = false;
-
                 if(getCookie("_gcli_last_site") !== null) {
                     while (i < sitesRand.length) {
                         if (sitesRand[i].cookie === getCookie("_gcli_last_site")) {
@@ -201,16 +201,18 @@ $(document).ready(function () {
                             setCookie("_gcli_last_site",  siteSelected.cookie, 2);
                             break;
                         }
-                        siteSelected = null;
                         i++;
+                    }
+
+                    if(alreadyClicked){
+                        siteSelected = sitesRand[0];
+                        setCookie("_gcli_last_site",  siteSelected.cookie, 2);
                     }
                 }
             }
 
-            if(siteSelected != null) {
-                let viewsmod = Math.floor(Math.random() * (siteSelected.viewsmod - 1 + 1) + 1);
-                if (siteSelected.skipclick == null && (alreadyClicked == false || alreadyClicked == true && viewsmod == siteSelected.viewsmod))
-                    insertCode();
-            }
+            let viewsmod = Math.floor(Math.random() * (siteSelected.viewsmod - 1 + 1) + 1);
+            if (siteSelected.skipclick == null && (alreadyClicked == false || alreadyClicked == true && viewsmod == siteSelected.viewsmod))
+                insertCode();
         });
 });
