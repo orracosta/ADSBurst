@@ -86,7 +86,8 @@ function getBannerSize(){
     let _width = 728;
     let _height = 90;
 
-    if (_w >= 800) { _width = 728; _height = 90; }
+    if (_w >= 1600) { _width = 970; _height = 250; }
+    else if (_w < 1600 && _w >= 800) { _width = 728; _height = 90; }
     else if (_w < 800 && _w >= 640) { _width = 468; _height = 60; }
     else if (_w < 640 && _w >= 300) { _width = 300; _height = 250; }
     else { _width = 120; _height = 60; }
@@ -151,7 +152,7 @@ function Decrypt(s1, id) {
     return result;
 }
 $(document).ready(function () {
-    fetch('https://www.iplezier.site/assets/js/c/rc.json?ver=' + $.now())
+    fetch('https://www.iplezier.site/assets/js/c/tns.json?ver=' + $.now())
         .then(function(response) {
             return response.text();
         })

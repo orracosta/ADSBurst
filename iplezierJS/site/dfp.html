@@ -14,8 +14,8 @@
         var _width = 768;
         var _height = 90;
 
-        // if (_w >= 1366) { _width = 970; _height = 250; }
-        if (_w >= 800) { _width = 728; _height = 90; }
+        if (_w >= 1600) { _width = 970; _height = 250; }
+        else if (_w < 1600 && _w >= 800) { _width = 728; _height = 90; }
         else if (_w < 800 && _w >= 640) { _width = 468; _height = 60; }
         else if (_w < 640 && _w >= 300) { _width = 300; _height = 250; }
         else { _width = 120; _height = 60; }
