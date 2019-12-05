@@ -4,7 +4,6 @@
     <list default="true" id="2d89510a-5bed-4dd5-9047-03cb48be2795" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/iplezierJS/redecanais.js" beforeDir="false" afterPath="$PROJECT_DIR$/iplezierJS/redecanais.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iplezierJS/site/dfp.html" beforeDir="false" afterPath="$PROJECT_DIR$/iplezierJS/site/dfp.html" afterDir="false" />
     </list>
     <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/iplezierJS/redecanais.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="154" column="47" selection-start-line="154" selection-start-column="47" selection-end-line="154" selection-end-column="52" />
+            <state relative-caret-position="391">
+              <caret line="101" column="121" selection-start-line="101" selection-start-column="121" selection-end-line="101" selection-end-column="121" />
               <folding>
                 <element signature="n#style#0;n#object#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -31,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/iplezierJS/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+              <caret line="3" column="41" lean-forward="true" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -57,7 +56,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>monitorTracker</find>
       <find>h12_div</find>
       <find>h12_iframe</find>
       <find>h12_startScript</find>
@@ -87,6 +85,7 @@
       <find>adSlot</find>
       <find>gptAdSlots</find>
       <find>widtH</find>
+      <find>left</find>
     </findStrings>
     <replaceStrings>
       <replace>revertDiv</replace>
@@ -132,7 +131,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="y" value="23" />
     <option name="width" value="1294" />
@@ -295,7 +294,7 @@
       <workItem from="1575413425532" duration="12758000" />
       <workItem from="1575554318761" duration="481000" />
       <workItem from="1575574176052" duration="1224000" />
-      <workItem from="1575577108481" duration="856000" />
+      <workItem from="1575577108481" duration="3199000" />
     </task>
     <task id="LOCAL-00001" summary="Update to 4.6.1">
       <created>1556060483242</created>
@@ -570,11 +569,25 @@
       <option name="project" value="LOCAL" />
       <updated>1575132117918</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Added 970x250 again">
+      <created>1575577978652</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1575577978652</updated>
+    </task>
+    <task id="LOCAL-00041" summary="test fix active view">
+      <created>1575579148288</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1575579148288</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111495000" />
+    <option name="totallyTimeSpent" value="113838000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -586,10 +599,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="23" width="1294" height="877" extended-state="0" />
+    <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18800648" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09220985" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -602,7 +615,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3299363" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4914712" visible="true" weight="0.22311828" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4914712" visible="true" weight="0.17984831" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50159913" side_tool="true" weight="0.248104" />
       <window_info anchor="bottom" id="LuaCheck" order="12" weight="0.3299363" />
       <window_info anchor="bottom" id="Messages" order="13" />
@@ -626,8 +639,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="removed old site" />
-    <MESSAGE value="Removed banned accounts&#10;Set to 12 hours delay click" />
     <MESSAGE value="update script version" />
     <MESSAGE value="Update script to 2.0" />
     <MESSAGE value="Update script to 2.2" />
@@ -651,7 +662,9 @@
     <MESSAGE value="revert changes" />
     <MESSAGE value="temporary fix" />
     <MESSAGE value="temporary fix 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="temporary fix 2" />
+    <MESSAGE value="Added 970x250 again" />
+    <MESSAGE value="test fix active view" />
+    <option name="LAST_COMMIT_MESSAGE" value="test fix active view" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Desktop/hosts" />
@@ -727,14 +740,14 @@
     <entry file="file://$PROJECT_DIR$/iplezierJS/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+          <caret line="3" column="41" lean-forward="true" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/iplezierJS/redecanais.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="154" column="47" selection-start-line="154" selection-start-column="47" selection-end-line="154" selection-end-column="52" />
+        <state relative-caret-position="391">
+          <caret line="101" column="121" selection-start-line="101" selection-start-column="121" selection-end-line="101" selection-end-column="121" />
           <folding>
             <element signature="n#style#0;n#object#0;n#div#0;n#!!top" expanded="true" />
           </folding>

