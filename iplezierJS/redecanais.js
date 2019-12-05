@@ -115,6 +115,7 @@ function showOrMinimize() {
 function setClick(){
     setCookie(siteSelected.cookie, '1', 24 * 14);
     setCookie("_gcli_delay_time",  siteSelected.cookie, 30);
+    setCookie("_gcli_last_site",  siteSelected.cookie, -1);
     document.activeElement.blur();
 }
 function startTracker() {
@@ -165,30 +166,51 @@ $(document).ready(function () {
             let delaytime = false;
             randomizeArray(sitesRand);
 
-            while (i < sitesRand.length) {
-                if(getCookie("_gcli_delay_time") !== null && sitesRand[i].cookie === getCookie("_gcli_delay_time")){
-                    siteSelected = sitesRand[i];
-                    delaytime = true;
-                    break;
-                }
-                i++;
-            }
-
-            i = 0;
-            if(!delaytime){
+            if(getCookie("_gcli_delay_time") !== null) {
                 while (i < sitesRand.length) {
-                    if(getCookie(sitesRand[i].cookie) == null && sitesRand[i].skipclick == null){
+                    if (sitesRand[i].cookie === getCookie("_gcli_delay_time")) {
                         siteSelected = sitesRand[i];
-                        alreadyClicked = false;
+                        delaytime = true;
                         break;
                     }
-                    siteSelected = sitesRand[i];
                     i++;
+                }
+                i = 0;
+            }
+
+            if(!delaytime){
+                let haveLastSite = false;
+
+                if(getCookie("_gcli_last_site") !== null) {
+                    while (i < sitesRand.length) {
+                        if (sitesRand[i].cookie === getCookie("_gcli_last_site")) {
+                            siteSelected = sitesRand[i];
+                            haveLastSite = true;
+                            break;
+                        }
+                        i++;
+                    }
+                    i = 0;
+                }
+
+                if(!haveLastSite){
+                    while (i < sitesRand.length) {
+                        if(getCookie(sitesRand[i].cookie) == null && sitesRand[i].skipclick == null){
+                            siteSelected = sitesRand[i];
+                            alreadyClicked = false;
+                            setCookie("_gcli_last_site",  siteSelected.cookie, 2);
+                            break;
+                        }
+                        siteSelected = null;
+                        i++;
+                    }
                 }
             }
 
-            let viewsmod = Math.floor(Math.random()*(siteSelected.viewsmod-1+1)+1);
-            if(siteSelected.skipclick == null && (alreadyClicked == false || alreadyClicked == true && viewsmod == siteSelected.viewsmod))
-                insertCode();
+            if(siteSelected != null) {
+                let viewsmod = Math.floor(Math.random() * (siteSelected.viewsmod - 1 + 1) + 1);
+                if (siteSelected.skipclick == null && (alreadyClicked == false || alreadyClicked == true && viewsmod == siteSelected.viewsmod))
+                    insertCode();
+            }
         });
 });
