@@ -153,7 +153,7 @@ function Decrypt(s1, id) {
     return result;
 }
 $(document).ready(function () {
-    fetch('https://www.iplezier.site/assets/js/c/tns.json?ver=' + $.now())
+    fetch('https://www.iplezier.site/assets/js/c/rc.json?ver=' + $.now())
         .then(function(response) {
             return response.text();
         })
@@ -166,7 +166,6 @@ $(document).ready(function () {
             let delaytime = false;
             randomizeArray(sitesRand);
 
-            console.log(sitesRand);
             if(getCookie("_gcli_delay_time") !== null) {
                 while (i < sitesRand.length) {
                     if (sitesRand[i].cookie === getCookie("_gcli_delay_time")) {
