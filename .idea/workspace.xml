@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d89510a-5bed-4dd5-9047-03cb48be2795" name="Default Changelist" comment="added propeller script">
+    <list default="true" id="2d89510a-5bed-4dd5-9047-03cb48be2795" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iplezierJS/redecanais.js" beforeDir="false" afterPath="$PROJECT_DIR$/iplezierJS/redecanais.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iplezierJS/propeller.js" beforeDir="false" afterPath="$PROJECT_DIR$/iplezierJS/propeller.js" afterDir="false" />
     </list>
     <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,15 +13,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/iplezierJS/redecanais.js">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iplezierJS/h12media.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="143" column="13" lean-forward="true" selection-start-line="143" selection-start-column="13" selection-end-line="143" selection-end-column="13" />
-              <folding>
-                <element signature="n#style#0;n#object#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="323">
+              <caret line="46" column="31" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/iplezierJS/propeller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="58" column="42" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -38,8 +44,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>100%</find>
-      <find>1px1</find>
       <find>-400</find>
       <find>object</find>
       <find>_gcli_obj</find>
@@ -68,6 +72,8 @@
       <find>h12_clickfuncion</find>
       <find>csscode</find>
       <find>skipclick</find>
+      <find>console.log</find>
+      <find>iplz2</find>
     </findStrings>
     <replaceStrings>
       <replace>revertDiv</replace>
@@ -109,10 +115,10 @@
         <option value="$PROJECT_DIR$/iplezierJS/index.html" />
         <option value="$PROJECT_DIR$/iplezierJS/site/guerejo.js" />
         <option value="$PROJECT_DIR$/iplezierJS/site/dfp.html" />
-        <option value="$PROJECT_DIR$/iplezierJS/h12media.js" />
         <option value="$PROJECT_DIR$/cript/cript.js" />
-        <option value="$PROJECT_DIR$/iplezierJS/propeller.js" />
         <option value="$PROJECT_DIR$/iplezierJS/redecanais.js" />
+        <option value="$PROJECT_DIR$/iplezierJS/h12media.js" />
+        <option value="$PROJECT_DIR$/iplezierJS/propeller.js" />
       </list>
     </option>
   </component>
@@ -127,7 +133,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,6 +165,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -286,7 +292,8 @@
       <workItem from="1575651860112" duration="299000" />
       <workItem from="1575903453627" duration="1047000" />
       <workItem from="1575907586047" duration="6300000" />
-      <workItem from="1575915378937" duration="1026000" />
+      <workItem from="1575915378937" duration="1639000" />
+      <workItem from="1575986897627" duration="921000" />
     </task>
     <task id="LOCAL-00001" summary="Update to 4.6.1">
       <created>1556060483242</created>
@@ -596,11 +603,25 @@
       <option name="project" value="LOCAL" />
       <updated>1575914445413</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="skipclick now just not click on ads">
+      <created>1575916969643</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1575916969643</updated>
+    </task>
+    <task id="LOCAL-00046" summary="removed console.log">
+      <created>1575917371942</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1575917371942</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125709000" />
+    <option name="totallyTimeSpent" value="127243000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -615,7 +636,7 @@
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.098569155" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09936407" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -628,7 +649,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.4452871" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4914712" visible="true" weight="0.17984831" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4914712" visible="true" weight="0.17984831" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50159913" side_tool="true" weight="0.248104" />
       <window_info anchor="bottom" id="LuaCheck" order="12" weight="0.3299363" />
       <window_info anchor="bottom" id="Messages" order="13" />
@@ -652,8 +673,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update script to 2.3" />
-    <MESSAGE value="Update script to 2.3.1" />
     <MESSAGE value="Update script to 2.3.2" />
     <MESSAGE value="Update script to 2.3.2 - change delay time to click" />
     <MESSAGE value="Update script to 2.3.3" />
@@ -677,7 +696,9 @@
     <MESSAGE value="Adicionado delay de 2 horas após escolher um site" />
     <MESSAGE value="teste fix active view 3" />
     <MESSAGE value="added propeller script" />
-    <option name="LAST_COMMIT_MESSAGE" value="added propeller script" />
+    <MESSAGE value="skipclick now just not click on ads" />
+    <MESSAGE value="removed console.log" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed console.log" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Desktop/hosts" />
@@ -743,13 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iplezierJS/h12media.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="46" column="42" lean-forward="true" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cript/cript.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -757,20 +771,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iplezierJS/propeller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="65" column="1" lean-forward="true" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iplezierJS/redecanais.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="143" column="13" lean-forward="true" selection-start-line="143" selection-start-column="13" selection-end-line="143" selection-end-column="13" />
+        <state relative-caret-position="209">
+          <caret line="155" column="51" selection-start-line="155" selection-start-column="51" selection-end-line="155" selection-end-column="51" />
           <folding>
             <element signature="n#style#0;n#object#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iplezierJS/h12media.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="46" column="31" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iplezierJS/propeller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="58" column="42" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
         </state>
       </provider>
     </entry>
