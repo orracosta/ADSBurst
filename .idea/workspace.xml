@@ -2,177 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d89510a-5bed-4dd5-9047-03cb48be2795" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/iplezierJS/mgid.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iplezierJS/propeller.js" beforeDir="false" afterPath="$PROJECT_DIR$/iplezierJS/propeller.js" afterDir="false" />
     </list>
-    <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iplezierJS/h12media.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="46" column="31" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/iplezierJS/propeller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="58" column="42" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>-400</find>
-      <find>object</find>
-      <find>_gcli_obj</find>
-      <find>defineSizeMapping</find>
-      <find>adSlot</find>
-      <find>gptAdSlots</find>
-      <find>widtH</find>
-      <find>left</find>
-      <find>_gcli_delay_time</find>
-      <find>viewsmod</find>
-      <find>alreadyClicked</find>
-      <find>visib</find>
-      <find>$(&quot;#_gcli_div&quot; + uniqueID).css(&quot;width&quot;, &quot;100%&quot;).css(&quot;height&quot;, &quot;100%&quot;).css(&quot;top&quot;, &quot;0&quot;).css(&quot;left&quot;, &quot;0&quot;).css(&quot;z-index&quot;, &quot;-999999&quot;).css(&quot;position&quot;, &quot;fixed&quot;);</find>
-      <find>innerHeight</find>
-      <find>h12_div</find>
-      <find>h12_iframe</find>
-      <find>h12_monitorTracker</find>
-      <find>h12_startTracker</find>
-      <find>9999999</find>
-      <find>12_clickfuncion</find>
-      <find>h12_links</find>
-      <find>getcookier</find>
-      <find>h12_getCookie</find>
-      <find>800px</find>
-      <find>h12_revertDiv</find>
-      <find>h12_clickfuncion</find>
-      <find>csscode</find>
-      <find>skipclick</find>
-      <find>console.log</find>
-      <find>iplz2</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>revertDiv</replace>
-      <replace>h12_canTrack</replace>
-      <replace>h12_monitorTracker</replace>
-      <replace>h12_links</replace>
-      <replace>h12_clickfuncion</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/jquery.min 3.js" />
-        <option value="$PROJECT_DIR$/iplezierJS/newTWO.js" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/header-style-1.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/ads.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/iPlezier.js" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/jquery.main.js" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/jquery.min.js" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/iPlezier.js" />
-        <option value="$PROJECT_DIR$/iplezierJS/iPlezier.js" />
-        <option value="$PROJECT_DIR$/iplezierJS/iPlezier2.js" />
-        <option value="$PROJECT_DIR$/iplezierJS/goyabu.js" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/goyabu.js" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/jquery.main 2.js" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/jquery.min 2.js" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/header-style-10.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/redecanais.js" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/jquery.main.js" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/jquery.min.js" />
-        <option value="$PROJECT_DIR$/iplezierJS/cript.php" />
-        <option value="$PROJECT_DIR$/iplezierJS/site-redirect.js" />
-        <option value="$PROJECT_DIR$/iplezierJS/site/head.php" />
-        <option value="$PROJECT_DIR$/iplezierJS/index.html" />
-        <option value="$PROJECT_DIR$/iplezierJS/site/guerejo.js" />
-        <option value="$PROJECT_DIR$/iplezierJS/site/dfp.html" />
-        <option value="$PROJECT_DIR$/cript/cript.js" />
-        <option value="$PROJECT_DIR$/iplezierJS/redecanais.js" />
-        <option value="$PROJECT_DIR$/iplezierJS/h12media.js" />
-        <option value="$PROJECT_DIR$/iplezierJS/propeller.js" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-4" />
-    <option name="y" value="23" />
-    <option name="width" value="1355" />
-    <option name="height" value="877" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="iPlezierJS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iPlezierJS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iPlezierJS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iPlezierJS" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iPlezierJS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iPlezierJS" type="462c0819:PsiDirectoryNode" />
-              <item name="cript" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iPlezierJS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iPlezierJS" type="462c0819:PsiDirectoryNode" />
-              <item name="iplezierJS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iPlezierJS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iPlezierJS" type="462c0819:PsiDirectoryNode" />
-              <item name="iplezierJS" type="462c0819:PsiDirectoryNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
+  <component name="ProjectId" id="1UqXwkKKLHF3FbKNV6hRUFwCNCj" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/iplezierJS" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -294,6 +156,10 @@
       <workItem from="1575907586047" duration="6300000" />
       <workItem from="1575915378937" duration="1639000" />
       <workItem from="1575986897627" duration="921000" />
+      <workItem from="1576085343094" duration="101000" />
+      <workItem from="1576086398514" duration="141000" />
+      <workItem from="1576087051396" duration="178000" />
+      <workItem from="1576091878522" duration="17113000" />
     </task>
     <task id="LOCAL-00001" summary="Update to 4.6.1">
       <created>1556060483242</created>
@@ -620,9 +486,6 @@
     <option name="localTasksCounter" value="47" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127243000" />
-  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -631,33 +494,6 @@
       <are-packages-shown value="true" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09936407" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3299363" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.4452871" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4914712" visible="true" weight="0.17984831" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50159913" side_tool="true" weight="0.248104" />
-      <window_info anchor="bottom" id="LuaCheck" order="12" weight="0.3299363" />
-      <window_info anchor="bottom" id="Messages" order="13" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -670,6 +506,19 @@
         <option value="3" />
         <option value="1" />
       </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
@@ -700,100 +549,28 @@
     <MESSAGE value="removed console.log" />
     <option name="LAST_COMMIT_MESSAGE" value="removed console.log" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/hosts" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/jquery.min 3.js" />
-    <entry file="file://$PROJECT_DIR$/cript/obf.js" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/wp-config.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/header.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/header-style-1.php" />
-    <entry file="file://$USER_HOME$/Documents/ProjetoMice/index.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/3-3v-3v-3v-3v-boxed.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/ads.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index 2.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/iPlezier.js" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/jquery.main.js" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/jquery.min.js" />
-    <entry file="file://$PROJECT_DIR$/iplezierJS/newTWO.js" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/iPlezier.js" />
-    <entry file="file://$PROJECT_DIR$/iplezierJS/goyabu.js" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/goyabu.js" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/jquery.main 2.js" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/jquery.min 2.js" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/header-style-10.php" />
-    <entry file="file://$PROJECT_DIR$/config/cripto.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/redecanais.js" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/jquery.main.js" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/jquery.min.js" />
-    <entry file="file://$PROJECT_DIR$/iplezierJS/site-redirect.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="49" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iplezierJS/cript.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" column="74" selection-start-line="65" selection-start-column="74" selection-end-line="65" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iplezierJS/site/head.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iplezierJS/site/guerejo.js" />
-    <entry file="file://$PROJECT_DIR$/iplezierJS/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iplezierJS/site/dfp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="17" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cript/cript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iplezierJS/redecanais.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="155" column="51" selection-start-line="155" selection-start-column="51" selection-end-line="155" selection-end-column="51" />
-          <folding>
-            <element signature="n#style#0;n#object#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iplezierJS/h12media.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="46" column="31" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iplezierJS/propeller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="58" column="42" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.es6</url>
+          <line>1236</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.es6</url>
+          <line>1117</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.es6</url>
+          <line>1238</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
