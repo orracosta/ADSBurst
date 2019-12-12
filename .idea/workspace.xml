@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d89510a-5bed-4dd5-9047-03cb48be2795" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iplezierJS/h12media.js" beforeDir="false" afterPath="$PROJECT_DIR$/iplezierJS/mahimeta.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iplezierJS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/iplezierJS/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iplezierJS/redecanais.js" beforeDir="false" afterPath="$PROJECT_DIR$/iplezierJS/adsense.js" afterDir="false" />
-    </list>
+    <list default="true" id="2d89510a-5bed-4dd5-9047-03cb48be2795" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +158,7 @@
       <workItem from="1576087051396" duration="178000" />
       <workItem from="1576091878522" duration="17323000" />
       <workItem from="1576164062425" duration="1221000" />
-      <workItem from="1576177284682" duration="2408000" />
+      <workItem from="1576177284682" duration="2662000" />
     </task>
     <task id="LOCAL-00001" summary="Update to 4.6.1">
       <created>1556060483242</created>
@@ -494,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576116855061</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="added mahimeta script">
+      <created>1576179718475</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1576179718475</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TodoView">
@@ -533,7 +535,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update script to 2.3.2 - change delay time to click" />
     <MESSAGE value="Update script to 2.3.3" />
     <MESSAGE value="Update script to 2.4" />
     <MESSAGE value="teste aumentar ctr" />
@@ -558,7 +559,8 @@
     <MESSAGE value="skipclick now just not click on ads" />
     <MESSAGE value="removed console.log" />
     <MESSAGE value="Ads to mgid" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ads to mgid" />
+    <MESSAGE value="added mahimeta script" />
+    <option name="LAST_COMMIT_MESSAGE" value="added mahimeta script" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
