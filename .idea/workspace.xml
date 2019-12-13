@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d89510a-5bed-4dd5-9047-03cb48be2795" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/iplezierJS/adskeeper.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iplezierJS/adskeeper.js" beforeDir="false" afterPath="$PROJECT_DIR$/iplezierJS/adskeeper.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -162,7 +162,8 @@
       <workItem from="1576091878522" duration="17323000" />
       <workItem from="1576164062425" duration="1221000" />
       <workItem from="1576177284682" duration="2662000" />
-      <workItem from="1576205601793" duration="2995000" />
+      <workItem from="1576205601793" duration="3103000" />
+      <workItem from="1576209991580" duration="1508000" />
     </task>
     <task id="LOCAL-00001" summary="Update to 4.6.1">
       <created>1556060483242</created>
@@ -500,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576179718475</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="add adskeeper">
+      <created>1576209252538</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1576209252538</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TodoView">
@@ -539,7 +547,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update script to 2.3.3" />
     <MESSAGE value="Update script to 2.4" />
     <MESSAGE value="teste aumentar ctr" />
     <MESSAGE value="Update script to 2.5" />
@@ -564,7 +571,8 @@
     <MESSAGE value="removed console.log" />
     <MESSAGE value="Ads to mgid" />
     <MESSAGE value="added mahimeta script" />
-    <option name="LAST_COMMIT_MESSAGE" value="added mahimeta script" />
+    <MESSAGE value="add adskeeper" />
+    <option name="LAST_COMMIT_MESSAGE" value="add adskeeper" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
