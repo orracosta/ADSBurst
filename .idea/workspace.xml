@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d89510a-5bed-4dd5-9047-03cb48be2795" name="Default Changelist" comment="">
+    <list default="true" id="2d89510a-5bed-4dd5-9047-03cb48be2795" name="Default Changelist" comment="add adskeeper">
+      <change afterPath="$PROJECT_DIR$/iplezierJS/adsense-in-site/blogscript.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iplezierJS/adskeeper.js" beforeDir="false" afterPath="$PROJECT_DIR$/iplezierJS/adskeeper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iplezierJS/mgid.js" beforeDir="false" afterPath="$PROJECT_DIR$/iplezierJS/mgid.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -165,13 +164,8 @@
       <workItem from="1576177284682" duration="2662000" />
       <workItem from="1576205601793" duration="3103000" />
       <workItem from="1576209991580" duration="1508000" />
-    </task>
-    <task id="LOCAL-00001" summary="Update to 4.6.1">
-      <created>1556060483242</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1556060483242</updated>
+      <workItem from="1576252925232" duration="111000" />
+      <workItem from="1576257421704" duration="15117000" />
     </task>
     <task id="LOCAL-00002" summary="Update to 4.6.2">
       <created>1556346829408</created>
@@ -509,7 +503,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576209252538</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="fix adskeeper and mgid">
+      <created>1576275120147</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1576275120148</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TodoView">
@@ -548,7 +549,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update script to 2.4" />
     <MESSAGE value="teste aumentar ctr" />
     <MESSAGE value="Update script to 2.5" />
     <MESSAGE value="Added h12 media script version" />
@@ -573,7 +573,8 @@
     <MESSAGE value="Ads to mgid" />
     <MESSAGE value="added mahimeta script" />
     <MESSAGE value="add adskeeper" />
-    <option name="LAST_COMMIT_MESSAGE" value="add adskeeper" />
+    <MESSAGE value="fix adskeeper and mgid" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix adskeeper and mgid" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
