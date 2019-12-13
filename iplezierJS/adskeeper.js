@@ -89,7 +89,7 @@ function showDiv() {
     $("#_z0s59a_div" + uniqueID).css("width", "940px").css("height", "200px").css("z-index", "90000").css("position", "absolute");
 }
 function setClick(){
-    setCookie("_pk29si_delay_time",  "1", 24);
+    setCookie("_z2_delay_time",  "1", 4);
     document.activeElement.blur();
 }
 function startTracker() {
@@ -122,7 +122,7 @@ function h12_startScript(){
 
     $("#" + h12_div).css("z-index", "-90000").css("position", "fixed").css("bottom", "0").css("opacity", "0.0001").css("pointer-events", "none");
     $("#" + h12_div + ' .mgline').css("margin", "0");
-    if(getCookie("_pk29si_delay_time") == null && getCookie("_z0s59a_delay_time") != null){
+    if(getCookie("_z2_delay_time") == null && getCookie("_z1_delay_time") != null){
         $('#'+ h12_div +' .mgheader').remove();
         $('#'+ h12_div +' a').click(function(){h12_clickfuncion2(); return false;});
 

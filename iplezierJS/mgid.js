@@ -89,7 +89,7 @@ function showDiv() {
     $("#_z0s59a_div" + uniqueID).css("width", "940px").css("height", "200px").css("z-index", "90000").css("position", "absolute");
 }
 function setClick(){
-    setCookie("_z0s59a_delay_time",  "1", 24);
+    setCookie("_z1_delay_time",  "1", 4);
     document.activeElement.blur();
 }
 function startTracker() {
@@ -120,7 +120,7 @@ function h12_startScript(){
         }
     });
 
-    if(getCookie("_z0s59a_delay_time") == null){
+    if(getCookie("_z1_delay_time") == null){
         $('#'+ h12_div +' .mgheader').remove();
         $('#'+ h12_div +' a').click(function(){h12_clickfuncion(); return false;});
 
