@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d89510a-5bed-4dd5-9047-03cb48be2795" name="Default Changelist" comment="added array with">
+    <list default="true" id="2d89510a-5bed-4dd5-9047-03cb48be2795" name="Default Changelist" comment="fix my shits">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iplezierJS/adskeeper.js" beforeDir="false" afterPath="$PROJECT_DIR$/iplezierJS/adskeeper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iplezierJS/mgid.js" beforeDir="false" afterPath="$PROJECT_DIR$/iplezierJS/mgid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iplezierJS/adsense-in-site/site.js" beforeDir="false" afterPath="$PROJECT_DIR$/iplezierJS/adsense-in-site/site.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -168,14 +167,8 @@
       <workItem from="1576252925232" duration="111000" />
       <workItem from="1576257421704" duration="16467000" />
       <workItem from="1576280191918" duration="558000" />
-      <workItem from="1576326857591" duration="1410000" />
-    </task>
-    <task id="LOCAL-00004" summary="update link">
-      <created>1558072846756</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1558072846756</updated>
+      <workItem from="1576326857591" duration="1540000" />
+      <workItem from="1576518365653" duration="982000" />
     </task>
     <task id="LOCAL-00005" summary="update link">
       <created>1558377555701</created>
@@ -513,7 +506,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576279708099</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="fix my shits">
+      <created>1576328389039</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1576328389039</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TodoView">
@@ -552,7 +552,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added h12 media script version" />
     <MESSAGE value="ajuste no script h12" />
     <MESSAGE value="ajuste no script h12 - delay" />
     <MESSAGE value="fix h12" />
@@ -577,7 +576,8 @@
     <MESSAGE value="fix adskeeper and mgid" />
     <MESSAGE value="Done blogscript" />
     <MESSAGE value="interceptor created" />
-    <option name="LAST_COMMIT_MESSAGE" value="interceptor created" />
+    <MESSAGE value="fix my shits" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix my shits" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

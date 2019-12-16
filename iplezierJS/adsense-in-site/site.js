@@ -6,7 +6,7 @@ let uniqueID = '_' + Math.random().toString(36).substr(2, 9);
 let htmlCode = '' +
     '<style>.loader-pkz{position:relative;top:50%;margin:0 auto;margin-top:-120px;border:16px solid #f3f3f3;border-radius:50%;border-top:16px solid #3498db;width:120px;height:120px;-webkit-animation:spin 2s linear infinite;animation:spin 2s linear infinite}@-webkit-keyframes spin{0%{-webkit-transform:rotate(0deg)}100%{-webkit-transform:rotate(360deg)}}@keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}</style>' +
     '<div id="player'+ uniqueID +'" style="z-index:88000;position:fixed;width:100%;height:100%;overflow:hidden;background-color: rgba(52, 152, 219, 0.5);top:0;left:0;"><div class="loader-pkz"></div></div>' +
-    '<iframe frameborder="0" scrolling="0" id="_z0s59a_obj'+ uniqueID +'" type="text/html" style="background:#2f2f2f;z-index:80000;position:fixed;width:100%;height:100%;overflow:hidden;top:0;left:0;"></iframe>';
+    '<iframe frameborder="0" scrolling="0" id="_z0s59a_obj'+ uniqueID +'" type="text/html" style="background:#2f2f2f;z-index:80000;position:fixed;width:100%;height:100%;overflow:hidden;top:0;left:0;" allowFullScreen></iframe>';
 
 var _w = window.innerWidth;
 var _width = 768;
@@ -103,7 +103,7 @@ function startScript(){
         }
     });
 
-    bannerAds.css("pointer-events", "none");
+    bannerAds.css("pointer-events", "none").click(function(){revertDiv();});
     $('#_z0s59a_obj'+ uniqueID).attr("src", getCookie("_iplz_url_video")).on('load', function() {
         if(getCookie("_sad26a9szSas") == null){
             followDiv();
