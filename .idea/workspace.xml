@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2d89510a-5bed-4dd5-9047-03cb48be2795" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iplezierJS/adsense-in-site/interceptor.js" beforeDir="false" afterPath="$PROJECT_DIR$/iplezierJS/adsense-in-site/interceptor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iplezierJS/adsense-in-site/site.js" beforeDir="false" afterPath="$PROJECT_DIR$/iplezierJS/adsense-in-site/site.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -169,14 +169,8 @@
       <workItem from="1576280191918" duration="558000" />
       <workItem from="1576326857591" duration="1540000" />
       <workItem from="1576518365653" duration="982000" />
-      <workItem from="1576674101376" duration="813000" />
-    </task>
-    <task id="LOCAL-00006" summary="update links added animaisdanatureza">
-      <created>1561595356799</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1561595356799</updated>
+      <workItem from="1576674101376" duration="852000" />
+      <workItem from="1576705135897" duration="339000" />
     </task>
     <task id="LOCAL-00007" summary="Update links&#10;Added account 7">
       <created>1562209967549</created>
@@ -514,7 +508,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576638584812</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="agora string está codificada">
+      <created>1576675170890</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1576675170891</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TodoView">
@@ -553,7 +554,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ajuste no script h12 - delay" />
     <MESSAGE value="fix h12" />
     <MESSAGE value="UPDATE: set click delay to 2 hours" />
     <MESSAGE value="UPDATE: set delay click to 30 hours and 14 days account" />
@@ -578,7 +578,8 @@
     <MESSAGE value="interceptor created" />
     <MESSAGE value="fix my shits" />
     <MESSAGE value="try fix shits" />
-    <option name="LAST_COMMIT_MESSAGE" value="try fix shits" />
+    <MESSAGE value="agora string está codificada" />
+    <option name="LAST_COMMIT_MESSAGE" value="agora string está codificada" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

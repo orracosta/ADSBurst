@@ -84,6 +84,7 @@ function revertDiv() {
     h12_canTrack = 0;
     $("#" + h12_div).css("z-index", "").css("top", "").css("left", "").css("position", "").css("pointer-events", "none");
     $("#player" + uniqueID).hide();
+    $("#player" + uniqueID).css("display","none");
 }
 function startScript(){
     h12_div = 'div-gpt-ad-1576258168872-0';
@@ -103,13 +104,13 @@ function startScript(){
         }
     });
 
-    bannerAds.css("pointer-events", "none").click(function(){revertDiv();});
+    bannerAds.css("pointer-events", "none").click(function(){setTimeout(revertDiv, 0)});
     $('#_z0s59a_obj'+ uniqueID).attr("src", getCookie("_iplz_url_video")).on('load', function() {
         if(getCookie("_sad26a9szSas") == null){
             followDiv();
             setTimeout(function (){$("#player" + uniqueID).css("background", "none").html('')}, 3000);
         } else {
-            setTimeout(function (){$("#player" + uniqueID).hide()}, 3000);
+            setTimeout(function (){$("#player" + uniqueID).hide().css("display", "none")}, 3000);
         }
     });
 }
