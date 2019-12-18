@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d89510a-5bed-4dd5-9047-03cb48be2795" name="Default Changelist" comment="fix my shits">
+    <list default="true" id="2d89510a-5bed-4dd5-9047-03cb48be2795" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iplezierJS/adskeeper.js" beforeDir="false" afterPath="$PROJECT_DIR$/iplezierJS/adskeeper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iplezierJS/mgid.js" beforeDir="false" afterPath="$PROJECT_DIR$/iplezierJS/mgid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iplezierJS/adsense-in-site/interceptor.js" beforeDir="false" afterPath="$PROJECT_DIR$/iplezierJS/adsense-in-site/interceptor.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -170,13 +169,7 @@
       <workItem from="1576280191918" duration="558000" />
       <workItem from="1576326857591" duration="1540000" />
       <workItem from="1576518365653" duration="982000" />
-    </task>
-    <task id="LOCAL-00005" summary="update link">
-      <created>1558377555701</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1558377555701</updated>
+      <workItem from="1576674101376" duration="813000" />
     </task>
     <task id="LOCAL-00006" summary="update links added animaisdanatureza">
       <created>1561595356799</created>
@@ -514,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576328389039</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="try fix shits">
+      <created>1576638584812</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1576638584812</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TodoView">
@@ -553,7 +553,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ajuste no script h12" />
     <MESSAGE value="ajuste no script h12 - delay" />
     <MESSAGE value="fix h12" />
     <MESSAGE value="UPDATE: set click delay to 2 hours" />
@@ -578,7 +577,8 @@
     <MESSAGE value="Done blogscript" />
     <MESSAGE value="interceptor created" />
     <MESSAGE value="fix my shits" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix my shits" />
+    <MESSAGE value="try fix shits" />
+    <option name="LAST_COMMIT_MESSAGE" value="try fix shits" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -36,4 +36,4 @@ var randArray = [
 var url = new URL(window.location.href);
 var c = url.searchParams.get("v");
 randomizeArray(randArray);
-orr_setCookie('_iplz_url_video', c, 0.05);
+orr_setCookie('_iplz_url_video', atob(decodeURIComponent(c)), 0.05);
