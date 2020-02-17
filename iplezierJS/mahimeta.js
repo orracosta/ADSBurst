@@ -2,6 +2,9 @@ let monitorTracker = null;
 let canTrack = 0;
 let div = null;
 let iframe = null;
+let cookieName = '_iplz2_delay_time'; //nome do cookie de delay
+let delayTime = 15; // numero de dias de delay a cada clique - 15 dias
+let timeToStart = 10; //Tempo em segundos para iniciar o script - 10seg
 
 let pointerTracker = function(e){
     let out = {x:0, y:0};
@@ -15,16 +18,6 @@ let pointerTracker = function(e){
     }
     return out;
 };
-function randomizeArray(a) {
-    let j, x, i;
-    for (i = a.length - 1; i > 0; i--) {
-        j = Math.floor(Math.random() * (i + 1));
-        x = a[i];
-        a[i] = a[j];
-        a[j] = x;
-    }
-    return a;
-}
 function setCookie(strCookie, strValor, lngHoras) {
     let dtmData = new Date();
     let strExpires = null;
@@ -56,8 +49,7 @@ function revertDiv() {
     $('#' + div + ' div').css('position', 'fixed');
 }
 function startScript(){
-    let tempIframe = $('ins[id^="mMTag_Responsive"]');
-    //randomizeArray(tempIframe);
+    let tempIframe = $('ins[id^="mMTag_Responsive"]'); //id da div (pode ser somente parte do inicio do nome)
     div = tempIframe[0].id;
     iframe = $('#' + div + ' iframe')[0].id;
 
@@ -72,7 +64,7 @@ function startScript(){
         }
     });
 
-    if(getCookie("_iplz2_delay_time") == null){
+    if(getCookie(cookieName) == null){
         followDiv();
     }
 }
@@ -83,7 +75,7 @@ function followDiv() {
     $('#' + div + ' div').css('position', '');
 }
 function setClick(){
-    setCookie("_iplz2_delay_time", '1', 24 * 15);
+    setCookie(cookieName, '1', 24 * delayTime);
     document.activeElement.blur();
 }
 function startTracker() {
@@ -96,40 +88,6 @@ function startTracker() {
         }
     }, 500);
 }
-function Decrypt(s1, id) {
-    s1 = atob(s1);
-    var result = '';
-    var xx2 = s1.charAt(0);
-    xx2 = xx2.charCodeAt(0) - 65;
-    s1 = s1.substr(1);
-    while(s1.length > 0) {
-
-        result = result + String.fromCharCode(
-            (
-                s1.charAt(0).charCodeAt(0) - 65
-            )
-            * 25 +
-            (
-                s1.charAt(1).charCodeAt(0) - 65
-            )
-            - xx2 - id
-        );
-
-        s1 = s1.substr(2);
-
-    }
-    return result;
-}
 $(document).ready(function () {
-    fetch('https://www.iplezier.site/assets/js/c/rc.json?ver=' + $.now())
-        .then(function(response) {
-            return response.text();
-        })
-        .then(function(body) {
-            let jsonResponse = JSON.parse(Decrypt(body, 1247));
-
-            if(jsonResponse.redecanais === true){
-                setTimeout(startScript,4500);
-            }
-        });
+    setTimeout(startScript, (1000 * timeToStart));
 });
